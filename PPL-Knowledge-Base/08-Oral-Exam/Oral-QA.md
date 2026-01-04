@@ -343,8 +343,8 @@ tags: [ppl, oral, qa]
     **A:** 3 statute miles visibility and clear of clouds (FAR 91.155).
 159. **Q:** What are the Class C minima?
     **A:** 3 SM visibility, 500 feet below clouds, 1,000 feet above, and 2,000 feet horizontal.
-160. **Q:** How does Class G below 1,200 feet AGL differ during the day?
-    **A:** You need 1 SM visibility and remain clear of clouds; night minima are higher.
+160. **Q:** How does Class G below 1,200 AGL differ during the day?
+    **A:** 1 SM visibility and clear of clouds; night minima are higher.
 161. **Q:** What are the Class G night minima below 10,000 feet?
     **A:** 3 SM visibility and 500/1,000/2,000 feet cloud clearance (below 10,000 feet).
 162. **Q:** When is special VFR clearance required?
@@ -444,7 +444,7 @@ tags: [ppl, oral, qa]
 208. **Q:** What are the cloud/visibility minima in Class B? #weather (ACS W.I.A)
     **A:** 3 SM visibility and clear of clouds per [[01-Regulations/Notes/VFR-Weather-Minimums|minima note]].
 209. **Q:** What are the Class C minima? #weather (ACS W.I.A)
-    **A:** 3 SM visibility, 500 feet below, 1,000 feet above, 2,000 feet horizontal.
+    **A:** 3 SM visibility, 500 feet below, 1,000 feet above, and 2,000 feet horizontal.
 210. **Q:** How do Class G minima differ below 1,200 AGL during the day? #weather (ACS W.I.A)
     **A:** 1 SM visibility and clear of clouds, but night rises to 3/500/1/2.
 211. **Q:** Who has the right-of-way on head-on approaches? #regs (ACS P.II.A)
@@ -1039,3 +1039,129 @@ tags: [ppl, oral, qa]
     **A:** You lose adaptation immediately and must start over.
 500. **Q:** Can you fly with a bad cold or sinus infection? #medical (ACS PA.I.H)
     **A:** Not recommended. Descent can cause a "Sinus Block" (excruciating pain and potential eardrum rupture).
+
+## Checkride Gold Scenarios - Batch 1 (Added Jan 04)
+
+### Left Turning Tendencies
+101. **Q:** "I'm on takeoff roll and I shove the throttle forward quickly. What happens?"
+     **A:** The nose will yaw sharply to the left due to sudden Torque and Spiraling Slipstream. Correct with prompt Right Rudder.
+102. **Q:** "Which of the four tendencies is most dominant during a slow-flight climb?"
+     **A:** P-Factor. High Angle of Attack maximizes the asymmetry between descending and ascending blades.
+103. **Q:** "Explain why a 'skidding left turn' in the pattern is dangerous."
+     **A:** Skidding (too much left rudder) slows the inside wing. If it stalls, the airplane enters a spin instantly.
+104. **Q:** "Does a C172 have a rudder trim tab? How does it work?"
+     **A:** It is a ground-adjustable tab. It is bent to align the nose for cruise flight, meaning you still need right rudder in a climb.
+105. **Q:** "On a Go-Around, you apply full power. What is your very next physical action?"
+     **A:** Right Rudder! Power spike = Torque + P-factor spike.
+
+### Reciprocating Engine (LHAND)
+106. **Q:** "During your run-up, you switch to the LEFT magneto and the engine quits completely. Analysis?"
+     **A:** You just grounded the Right magneto. If the engine dies, the Left magneto (the one supposedly 'on') is dead.
+107. **Q:** "Why do we check the oil pressure right after starting?"
+     **A:** To ensure the pump is working. No pressure = no lubrication = engine seizure in <1 minute.
+108. **Q:** "Climbing out, CHT is near red line. Action?"
+     **A:** Lower nose (airspeed cooling), Enrich mixture (fuel cooling), Reduce power.
+109. **Q:** "Why is a broken magneto P-lead dangerous?"
+     **A:** The mag is "Hot". Moving the prop by hand could start the engine, even with keys OFF.
+110. **Q:** "Turbocharger vs. Supercharger?"
+     **A:** Turbo uses exhaust gas (laggy, free energy); Supercharger is engine-driven (instant, steals power).
+
+### Weather Hazards
+111. **Q:** "You see a lenticular cloud. What does it mean?"
+     **A:** Standing Mountain Wave with severe turbulence. Avoid the rotor zones below/near it.
+112. **Q:** "Most dangerous stage of a thunderstorm?"
+     **A:** Mature Stage (rain starts). It has updrafts AND downdrafts (shear/microbursts).
+113. **Q:** "Fog on a calm, clear morning?"
+     **A:** Radiation Fog. Will likely burn off with the sun.
+114. **Q:** "Can you fly through a Cold Front?"
+     **A:** Unwise. Expect squall lines, rapid drops, and shear. Wait it out.
+115. **Q:** "3 Ingredients for a Thunderstorm?"
+     **A:** Moisture, Instability, Lifting Action.
+
+### Regulations (ARROW)
+116. **Q:** "Does the Airworthiness Certificate expire?"
+     **A:** No, as long as the aircraft is maintained (Annuals, ADs).
+117. **Q:** "Can I use a generic POH from Sporty's?"
+     **A:** No. You need the Serial-Number specific AFM with the Weight & Balance data for *that* plane.
+118. **Q:** "Where must the Airworthiness Certificate be?"
+     **A:** Displayed at the cabin entrance, visible to passengers.
+119. **Q:** "Is a Radio Station License required?"
+     **A:** Only for international flights (e.g., Canada/Bahamas).
+120. **Q:** "Registration issued 01/01/2020. Is it valid today?"
+     **A:** Yes. Post-2010 registrations are valid for 7 years (expires 2027).
+
+## Checkride Gold Scenarios - Batch 2 (Added Jan 04)
+
+### Navigation (VOR & GPS)
+501. **Q:** "You tune a VOR and the needle is erratic. You are 50 miles away at 2,000 ft. Why?"
+     **A:** I am likely outside the **Service Volume**. A Low or High VOR is reliable to 40 NM at that altitude. At 50 NM, the signal is weak or blocked by line-of-sight.
+502. **Q:** "What is the 'Cone of Confusion'?"
+     **A:** The area directly above the VOR station where the signal is scrambled. The TO/FROM flag will flicker, and the CDI will swing fully.
+503. **Q:** "How do you verify your GPS is providing accurate information?"
+     **A:** I check the status page for **RAIM availability** and look for any integrity error messages. I also cross-check GPS waypoints against VORs or visual landmarks.
+504. **Q:** "Can you use a VOR check found in the back of the chart supplement (A/FD)?"
+     **A:** Yes. These are published Ground or Airborne checkpoints. verify the error is within limits (+/- 4° ground, +/- 6° air).
+505. **Q:** "Does your aircraft have WAAS? How do you know?"
+     **A:** If yes, I can fly LPV approaches. If no (e.g., standard G430 non-W), I am limited to LNAV minimums and must check RAIM prediction before flight.
+
+### Performance (Density Altitude)
+506. **Q:** "You are departing Big Bear (L35) elevation 6,700 ft. It is 30°C. How does this affect your takeoff?"
+     **A:** The Density Altitude could be over 9,000 ft. My engine will produce only ~65% power. My takeoff roll might double or triple compared to sea level.
+507. **Q:** "Does humidity increase or decrease density altitude?"
+     **A:** It **increases** density altitude. Water vapor is lighter than dry air, making the overall air mass less dense, reducing performance.
+508. **Q:** "Will your Indicated Airspeed for rotation ($V_r$) be different at a high density altitude airport?"
+     **A:** **No.** I use the same IAS. However, my True Airspeed (and ground speed) will be higher, so the runway used will be longer.
+509. **Q:** "What is the 'Koch Chart'?"
+     **A:** A nomograph used to calculate altitude and temperature effects. It typically shows percentage increase in runway length and decrease in rate of climb.
+510. **Q:** "Why is landing at high density altitude dangerous even if you have plenty of runway?"
+     **A:** Because of the higher True Airspeed. Your ground speed at touchdown is faster, increasing energy ($E=1/2mv^2$).
+
+### Systems (Pitot-Static)
+511. **Q:** "You are climbing at Vy, but your airspeed indicator starts increasing to the red line. What is happening?"
+     **A:** My Pitot tube and drain hole are likely blocked (ice). The trapped high pressure makes the ASI act like an altimeter.
+512. **Q:** "Your static port is blocked and you don't have an alternate static source. What can you do?"
+     **A:** I can break the glass face of the **VSI** (Vertical Speed Indicator). It is the least critical instrument. This vents the system to cabin air.
+513. **Q:** "If you switch to Alternate Static, why does the Altimeter read high?"
+     **A:** The pressure inside the cabin is slightly lower than outside. The altimeter interprets lower pressure as higher altitude.
+514. **Q:** "How do modern glass cockpits (G1000) detect these errors?"
+     **A:** They use an **ADC (Air Data Computer)**. If the pitot/static inputs fail, the ADC will fail, and you will see big Red X's over the airspeed and altitude tapes.
+515. **Q:** "Why is the Pitot Heat switch typically OFF on the ground?"
+     **A:** The heating element is very hot and relies on airflow for cooling. Without airflow, it can burn out or damage the pitot tube cover.
+
+## Checkride Gold Scenarios - Batch 3 (Added Jan 04)
+
+### Human Factors (Hypoxia)
+516. **Q:** "You have the heater on and start feeling drowsy and get a headache. What is it?"
+     **A:** Likely **Hypemic Hypoxia** caused by **Carbon Monoxide** leaking from the heater shroud. Turn off heater, open fresh air vents, use supplemental O2 if available, land ASAP.
+517. **Q:** "Why is it dangerous to fly after donating blood?"
+     **A:** You have reduced your hemoglobin count, causing **Hypemic Hypoxia** even at lower altitudes. It essentially lowers your body's service ceiling.
+518. **Q:** "At what altitude does night vision start to degrade?"
+     **A:** As low as **5,000 ft MSL**. The retina's rods are very oxygen-sensitive. I should use oxygen at night above 5,000 ft if available.
+519. **Q:** "What is 'Time of Useful Consciousness' (TUC) at 30,000 ft?"
+     **A:** Roughly **1-2 minutes**. It is the time you have to act (put on a mask) before you become mentally incapacitated.
+520. **Q:** "A passenger starts breathing rapidly and says their fingers are tingling. What do you do?"
+     **A:** They are hyperventilating. I will speak to them calmly, ask them to talk to me (forces slower breathing), and descend to a lower altitude.
+
+### Human Factors (Spatial Disorientation)
+521. **Q:** "You take off into a dark night over the ocean. You feel like you are tumbling backward. What is this?"
+     **A:** The **Somatogravic Illusion**. The acceleration pushes the otoliths back, mimicking a pitch-up. If I push forward, I will crash. Trust the Attitude Indicator.
+522. **Q:** "What is a 'Black Hole Approach'?"
+     **A:** Landing at night over water or unlit terrain. Without peripheral cues, pilots tend to fly a **lower than normal approach**. Use VASI/PAPI.
+523. **Q:** "Explain the 'Graveyard Spiral' mechanism."
+     **A:** I am in a turn but *feel* level. I see altitude loss and pull back. Since I am banked, pulling back only **tightens the turn** and increases descent. Recovery: Level wings, then pull.
+524. **Q:** "You look at a runway that is narrower than you are used to. How will this affect your approach?"
+     **A:** I will feel like I am **higher** than I actually am. I will be tempted to fly a **lower approach**, risking obstacles.
+525. **Q:** "Why should you avoid moving your head quickly to pick up a pencil during a turn?"
+     **A:** It triggers the **Coriolis Illusion**, confusing all three semicircular canals and causing severe vertigo.
+
+### Aerodynamics (Stalls/Spins)
+526. **Q:** "Can you stall while pointing straight down?"
+     **A:** Yes. If I pull back on the yoke abruptly, I can exceed the Critical Angle of Attack even in a vertical dive (Accelerated Stall).
+527. **Q:** "Why is an Aft CG dangerous for spins?"
+     **A:** It shortens the lever arm to the rudder, reducing control authority for recovery. It also tends to flatten the spin.
+528. **Q:** "What is a 'Cross-Controlled' stall?"
+     **A:** A stall occurring with controls crossed (e.g., Right Rudder, Left Aileron), usually base-to-final. It snaps into a spin over the top.
+529. **Q:** "Explain 'Dihedral'."
+     **A:** The upward angle of the wings. In a slip, the lower wing produces more lift than the upper wing, rolling the plane back to level (Lateral Stability).
+530. **Q:** "What is a 'Secondary Stall'?"
+     **A:** A stall occurring *during* the recovery of a first stall, usually caused by pulling back too aggressively before regaining flying speed.
