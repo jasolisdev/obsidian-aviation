@@ -1,7 +1,7 @@
 # Oral Exam Prep
 
 ## Oral QA bank
-- [[PPL-Knowledge-Base/08-Oral-Exam|Oral exam folder]] with scenario drills, ACS references, and prompt decks.
+- [[PPL-Knowledge-Base/08-Oral-Exam/Concepts|Oral exam concept index]] with scenario drills, ACS references, and prompt decks.
 - [[PPL-Knowledge-Base/08-Oral-Exam/Oral-QA|Oral QA bank]] for question/answer practice.
 ## Scenario practice
 - [[PPL-Knowledge-Base/08-Oral-Exam/Trick-Questions|Trick questions]] note to highlight things that can trip you up.

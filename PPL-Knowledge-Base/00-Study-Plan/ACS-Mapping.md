@@ -1,10 +1,15 @@
 ---
 tags: [ppl, acs]
+status: refining
+updated: 2026-02-11
 ---
 
 # ACS Mapping
 
 Goal: every concept note includes at least one ACS reference in frontmatter.
+
+> [!IMPORTANT]
+> Treat this map as a study organizer, not the legal source of task numbering. Before knowledge test/checkride prep, verify task references against [[00-Study-Plan/FAA-Current-References-2026|FAA Current References (2026 Baseline)]] and the current Private Pilot Airplane ACS.
 
 ## How to tag notes
 
@@ -28,8 +33,8 @@ In a note's frontmatter, use:
 | --- | --- | --- | --- |
 | [[05-Navigation/Notes/VOR-GPS-Basics|VOR & GPS Basics]] | Navigation (PA.VI) | PA.VI.A | VOR operation, GPS RAIM, WAAS, modes |
 | [[05-Navigation/Notes/Lost-Procedures-5Cs|Lost Procedures]] | Navigation (PA.VI) | PA.VI.C | 5 Cs of lost procedures, diversion |
-| [[06-Human-Factors/Notes/Hypoxia-Types-Symptoms|Hypoxia Types & Symptoms]] | Human Factors (PA.I) | PA.I.H | **CHECKRIDE READY** 4 Types, FAR 91.211 Oxygen Rules, Night Vision (5000ft), TUC |
-| [[06-Human-Factors/Notes/Spatial-Disorientation-Illusions|Spatial Disorientation & Illusions]] | Human Factors (PA.I) | PA.I.H | **CHECKRIDE READY** ICEFLAGS, Vestibular System, Black Hole Approach, Trust Instruments |
+| [[06-Human-Factors/Notes/Hypoxia-Types-Symptoms|Hypoxia & Hyperventilation]] | Human Factors (PA.I) | PA.I.H | Hypoxia types, symptoms, corrective action |
+| [[06-Human-Factors/Notes/Spatial-Disorientation-Illusions|Spatial Disorientation]] | Human Factors (PA.I) | PA.I.H | Vestibular illusions, ICEFLAGS, reliance on instruments |
 | [[06-Human-Factors/Notes/Scuba-Diving-Rules|Scuba Diving & Flying]] | Human Factors (PA.I) | PA.I.H | Decompression sickness, wait times |
 | [[07-Performance-WeightBalance/Notes/Center-of-Gravity-Shifts|CG Shifts & Stability]] | Performance (PA.VIII) | PA.VIII.A | Stability, stall speed, cruise speed effects of CG |
 | [[07-Performance-WeightBalance/Notes/Density-Altitude-Impact|Density Altitude Impact]] | Performance (PA.I) | PA.I.F | Effects of temp, pressure, humidity on performance |
@@ -61,10 +66,7 @@ In a note's frontmatter, use:
 | [[01-Regulations/Notes/Aircraft-Category-Class-Type|Aircraft Category, Class, & Type]] | Preflight Preparation (PA.I) | PA.I.A | Airmen vs. Aircraft category/class definitions |
 | [[01-Regulations/Notes/Part61-vs-Part141-Training|Part 61 vs. Part 141 Training]] | Preflight Preparation (PA.I) | PA.I.A | Training requirements, eligibility for private pilot |
 | [[01-Regulations/Notes/FAA-FSDO-DPE-Roles|FAA, FSDO, & DPE Roles]] | Preflight Preparation (PA.I) | PA.I.A | Roles of FAA, FSDO, and examiners |
-| [[01-Regulations/Notes/Required-Documents-ARROW|Required Documents (ARROW)]] | Preflight Preparation (PA.I) | PA.I.A | **CHECKRIDE READY** ARROW items, Validity (3/7 yrs), POH vs Manual, Compass Card |
-| [[03-Aircraft-Systems/Notes/Reciprocating-Powerplant-Basics|Reciprocating Powerplant]] | Aircraft Systems (PA.I) | PA.I.B | **CHECKRIDE READY** LHAND, 4-Stroke, Detonation/Pre-ignition, Troubleshooting |
-| [[04-Weather/Notes/Clouds-Fronts-Hazards|Clouds, Fronts, & Weather Hazards]] | Weather (PA.I) | PA.I.C | **CHECKRIDE READY** Fronts (Cold/Warm), 3 Stages of TS, 5 Fog types, Icing |
-| [[02-Aerodynamics/Notes/Left-Turning-Tendencies|Left Turning Tendencies]] | Aerodynamics (PA.I) | PA.I.F | **CHECKRIDE READY** Torque, P-Factor, Slipstream, Precession, Safety scenarios |
+| [[01-Regulations/Notes/Required-Documents-ARROW|Required Documents (ARROW)]] | Preflight Preparation (PA.I) | PA.I.A | ARROW items, paperwork validity, POH operating limitations |
 | [[01-Regulations/Notes/Part-61-Private-Basics|Private Pilot Privileges & Limitations]] | Preflight Preparation (PA.I) | PA.I.A, PA.I.B | Privileges/limitations, currency requirements, regulatory scope |
 | [[01-Regulations/Notes/VFR-Weather-Minimums|VFR Weather Minimums Overview]] | Weather (W.I) | W.I.A | FAR 91.155 minima, airspace-specific rules, night differences |
 | [[01-Regulations/Notes/Part-91-VFR-Equipment|Part 91 VFR Rules]] | Preflight Preparation (PA.II) | PA.II.A | VFR weather minima, equipment checks, fuel reserves |
@@ -74,7 +76,7 @@ In a note's frontmatter, use:
 | [[01-Regulations/Notes/Currency-vs-Proficiency|Currency vs Proficiency]] | Preflight Preparation (PA.III) | PA.III.C | FAR 61.57 currency, logging practices, personal minimums |
 | [[01-Regulations/Notes/Logging-PIC-Endorsements|Logging PIC & Endorsements]] | Preflight Preparation (PA.III) | PA.III.B | FIR logging, FAR 61.51, endorsements for solo/high-performance |
 | [[02-Aerodynamics/Notes/Lift-Drag-Dynamics|Lift & Drag Dynamics]] | Performance (P.I) | P.I.A | Lift/drag balance, configuration trade-offs |
-| [[02-Aerodynamics/Notes/Stalls-Spins-Stability|Stalls, Spins, & Stability]] | Maneuvering (PA.VII) | PA.VII.A | **CHECKRIDE READY** Static/Dynamic Stability, PARE Recovery, Aft CG Dangers, V-g Diagram |
+| [[02-Aerodynamics/Notes/Stalls-Spins-Stability|Stalls, Spins, & Stability]] | Maneuvering (P.II) | P.II.A | Critical AoA, spin recognition, recovery |
 | [[03-Aircraft-Systems/Notes/Pitot-Static-System|Pitot-Static System & Indications]] | Aircraft Systems (S.I) | S.I.A | Pitot/static operation, failure symptoms, alternate sources |
 | [[03-Aircraft-Systems/Notes/Electrical-System-Basics|Electrical System Fundamentals]] | Aircraft Systems (S.II) | S.II.A | Alternator/bus flow, ammeter interpretation, breaker discipline |
 | [[03-Aircraft-Systems/Notes/Reciprocating-Powerplant-Basics|Reciprocating Powerplant Essentials]] | Aircraft Systems (S.III) | S.III.A | Induction/ignition, mixture/cooling management |
@@ -82,7 +84,7 @@ In a note's frontmatter, use:
 | [[04-Weather/Notes/Clouds-Fronts-Hazards|Clouds, Fronts, & Weather Hazards]] | Weather (W.II) | W.II.A | Cloud type recognition, fronts, icing/turbulence |
 | [[04-Weather/Notes/Weather-ADM-Decision-Flow|Weather Decision-Making Flow]] | Weather (W.III) | W.III.A | DECIDE model, personal minimums, mitigation |
 | [[05-Navigation/Notes/Sectional-Airspace-Checklist|Sectional Charts & Airspace Basics]] | Navigation (N.I) | N.I.A | Chart reading, airspace classes, requirements |
-| [[05-Navigation/Notes/VOR-GPS-Basics|VOR & GPS Basics]] | Navigation (N.II) | N.II.A | **CHECKRIDE READY** Service Volumes, VOR Checks, RAIM, WAAS, Reverse Sensing |
+| [[05-Navigation/Notes/VOR-GPS-Basics|VOR & GPS Basics]] | Navigation (N.II) | N.II.A | VOR radial tracking, RAIM, GPS cross-checking |
 | [[05-Navigation/Notes/Flight-Planning-Workflow|VFR Flight Planning Workflow]] | Navigation (N.III) | N.III.A | Weather/fuel planning, alternates, passenger briefings |
 | [[06-Human-Factors/Notes/IMSAFE-Decision-Loop|IMSAFE & Decision Loop]] | Human Factors (HF.I) | HF.I.A | IMSAFE, DECIDE, risk documentation |
 | [[06-Human-Factors/Notes/Hypoxia-Disorientation|Hypoxia & Spatial Disorientation]] | Human Factors (HF.II) | HF.II.A | Hypoxia types, illusions, oxygen rules |

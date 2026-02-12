@@ -1,44 +1,39 @@
 ---
 tags: [ppl, regs, concept]
 acs: [PA.II.A]
-sources: ["FAR 91.205", "FAR 91.213"]
-status: seed
+sources: ["FAR 91.205", "FAR 91.213", "FAR 43"]
+status: checkride-ready
+updated: 2026-02-11
 ---
 
 # Equipment Requirements & INOP Equipment
 
 ## What it is
-FAR 91.205 mandates the instruments and equipment needed for VFR flight (ATOMATOFLAMES for day, FLAPS for night). FAR 91.213 explains how to fly with inoperative instruments when the equipment list and procedures allow it.
+- `91.205`: required instruments/equipment for day and night VFR.
+- `91.213`: legal process to operate with inoperative equipment.
 
-## Why it matters
-You need to show the DPE you can articulate the required equipment, cross-check the POH, and apply the INOP procedure before you ever taxi the airplane—this keeps you legal and avoids scenarios where a broken gauge grounds the flight needlessly.
+## Day and night mnemonics
+- Day VFR (`91.205(b)`): often remembered as `ATOMATOFLAMES`.
+- Night VFR adds (`91.205(c)`): often remembered as `FLAPS`.
 
-## How it shows up on a checkride
-- **Q:** “What does ATOMATOFLAMES stand for?” **A:** Altimeter, Tachometer, Oil pressure gauge, Manifold pressure (if applicable), Airspeed indicator, Temperature gauge (liquid-cooled), Oil temperature gauge, Fuel gauges, Landing gear position lights (if retractable), Anti-collision lights, Magnetic compass, Emergency locator transmitter, Seat belts.
-- **Q:** “What do you do if the TO/GA indicator is inop?” **A:** Consult FAR 91.213(d), the aircraft’s MEL (if it has one), or the POH to determine whether the flight can continue; document the issue and ensure a mechanic returns it to service.
-- **Q:** “When can you defer equipment?” **A:** Under FAA-approved maintenance documentation (like a minimum equipment list) or under 91.213(d) after verifying the equipment is not required for day VFR and logging the discrepancy.
+## INOP decision flow (`91.213`)
+1. Determine whether the inoperative item is required by:
+   - Type design / KOEL / equipment list,
+   - AD,
+   - `91.205` or any other rule for the operation.
+2. If not required, deactivate or remove (as appropriate) and placard `INOP`.
+3. If maintenance action is required, it must be performed and recorded properly.
+4. If the aircraft has an MEL, follow the MEL procedures.
+
+## Checkride angle
+You should be able to walk a DPE through one real scenario from your trainer (for example, an inoperative landing light for a daytime Part 91 flight).
 
 ## Common mistakes
-- Turning on the master and flying with known INOP equipment without documenting it (logbook entry per FAR 91.405).
-- Assuming all equipment in the panel is required; focus on ATOMATOFLAMES for day and FLAPS for night operations.
-- Forgetting to review the POH/AFM for any additional limitations beyond FAR 91.205.
-
-## Diagram
-```mermaid
-flowchart TD
-    Preflight[Preflight inspection] --> CheckATOMATO[Verify ATOMATOFLAMES/FLAPS]
-    CheckATOMATO --> OK{All required equipment working?}
-    OK -- Yes --> Dispatch[Proceed with the flight]
-    OK -- No --> INOP[Is there an MEL or 91.213 procedure?]
-    INOP -- Yes --> Log[Log discrepancy & placard]
-    INOP -- No --> Ground[Ground the flight until repaired]
-```
-
-## ACS Tags
-- Area of Operation: Preflight Preparation (PA.II)
-- Task(s): PA.II.A Determine equipment requirements and procedures for INOP items.
-- Knowledge elements: ATOMATOFLAMES/FLAPS mnemonic, FAR 91.205, FAR 91.213 INOP handling.
+- Flying with known inoperative required equipment.
+- Placarding without proper deactivation/maintenance steps when needed.
+- Using mnemonic memory only without checking POH/equipment list context.
 
 ## References
-- FAR 91.205 Required instruments and equipment.
-- FAR 91.213 Replacing instruments/equipment with inop items and special flight permits.
+- 14 CFR 91.205
+- 14 CFR 91.213
+- 14 CFR Part 43

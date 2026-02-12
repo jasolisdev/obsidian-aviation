@@ -1,7 +1,7 @@
 # Aircraft & Equipment Documents
 
 ## PDFs and POHs
-- Drop your POH/AFM, performance charts, and FAA-supplied PDFs into `PPL-Knowledge-Base/PDFs/` so they stay accessible during the oral and flight.
+- Drop POH/AFM files, performance charts, and FAA-supplied PDFs into `PPL-Knowledge-Base/PDFs/` so they stay accessible during oral prep and flight planning.
 - [[PPL-Knowledge-Base/PDFs/00-Place-PDFs-Here|PDF folder instructions]] and the binder can keep them synchronized.
 
 ## Glossaries & reference letters
@@ -9,4 +9,4 @@
 - Peer through [[Pilot Controller Glossary/A|A]] through [[Pilot Controller Glossary/W|W]] files as needed for quick definitions.
 
 ## Weight & balance / performance prep
-- Keep a note here with your current aircraft weight & balance numbers (create a new note inside this section or paste the latest form as needed).
+- Keep a note here with current training-aircraft weight & balance numbers (create a new note inside this section or paste the latest form as needed).

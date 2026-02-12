@@ -8,7 +8,7 @@
 
 ## Knowledge base indexes
 - [[PPL-Knowledge-Base/00-Index|PPL KB master index]] – jump between sections and study plans.
-- [[PPL-Knowledge-Base/01-Regulations/Concepts-Standalone-Vault|Regulations concept index]] – curated entry points: currency, endorsements, and obligations.
+- [[PPL-Knowledge-Base/01-Regulations/Concepts|Regulations concept index]] – curated entry points: currency, endorsements, and obligations.
 - [[PPL-Knowledge-Base/01-Regulations/Notes/Logging-PIC-Endorsements|Logging & PIC endorsements]]
 - [[PPL-Knowledge-Base/01-Regulations/Notes/Currency-vs-Proficiency|Currency vs proficiency guidance]]
 

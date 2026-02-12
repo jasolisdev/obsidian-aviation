@@ -1,91 +1,49 @@
 ---
-tags: [ppl, systems, instruments, acs-S.V.A]
-acs: [S.V.A]
-sources: ["PHAK Ch 8", "POH Section 7"]
-status: checkride-ready
+tags: [systems, instruments, acs-S.V]
+acs_code: S.V.A
 ---
 
 # Pitot-Static System
 
-## 1. The Basics
-The system relies on two types of air pressure to drive the flight instruments:
-1.  **Pitot Pressure (Ram Air):** Impact air pressure captured by the tube on the wing. (Only affects Airspeed).
-2.  **Static Pressure:** Ambient atmospheric pressure captured by the flush port on the fuselage. (Affects All Three).
+## Definition
+Instruments that rely on air pressure differentials.
+1.  **Pitot Tube:** Measures **Ram Air Pressure** (Impact).
+2.  **Static Port:** Measures **Static Pressure** (Ambient).
 
-### The Instruments
-*   **Airspeed Indicator (ASI):** Compares Ram Air minus Static Air.
-*   **Altimeter:** Measures Static Air only (barometer).
-*   **Vertical Speed Indicator (VSI):** Measures the *rate of change* of Static Air (calibrated leak).
+## The Instruments
 
----
-
-## 2. Failure Modes (The "Killer" Table)
-*Memorize this behavior.*
-
-| Failure | ASI Indication | Altimeter | VSI |
+| Instrument | Uses Pitot? | Uses Static? | Function |
 | :--- | :--- | :--- | :--- |
-| **Blocked Pitot** (Open Drain) | **Drops to Zero** (Bleeds out drain) | Normal | Normal |
-| **Blocked Pitot** (Blocked Drain) | **Acts like Altimeter** (Increases in climb) | Normal | Normal |
-| **Blocked Static Port** | **Inaccurate** (Reads low in climb, high in descent) | **Frozen** (Stuck at blocked altitude) | **Frozen** at Zero |
+| **Airspeed (ASI)** | **YES** | **YES** | Compares Ram vs. Static to determine speed. |
+| **Altimeter** | NO | **YES** | Expands as static pressure drops (Climb). |
+| **VSI** | NO | **YES** | Measures *rate of change* in static pressure. |
 
-> [!WARNING] **The Dangerous ASI Failure**
-> If the **Pitot and Drain** are blocked (e.g., ice), the air is trapped inside.
-> *   **Climb:** The static pressure outside decreases, but the trapped pitot pressure stays high. The diaphragm expands. **ASI indicates FAST.**
-> *   **Descent:** **ASI indicates SLOW.**
-> *   *Danger:* You might stall the plane thinking you are flying fast, or overspeed thinking you are slow.
+## Failures (Memorize This!)
 
----
+1.  **Blocked Pitot (Drain Open):** ASI drops to zero.
+2.  **Blocked Pitot (Drain Blocked):** ASI acts like an Altimeter (goes up in climb).
+3.  **Blocked Static Port:**
+    - ASI: Errors (reads low in climb).
+    - Altimeter: Freezes at blocked altitude.
+    - VSI: Freezes at zero.
 
-## 3. Alternate Static Source
-If the primary static port blocks (ice, tape, bug), pull the **Alternate Static Source** knob.
-*   **Source:** Takes air from *inside* the cabin.
-*   **Pressure:** Cabin pressure is usually **lower** than outside pressure (Venturi effect of fuselage).
-*   **Indications:**
-    *   **Altimeter:** Reads slightly **HIGH**.
-    *   **ASI:** Reads slightly **FAST**.
-    *   **VSI:** Momentarily shows a **CLIMB**, then stabilizes.
+## Checkride Angle
+- **Scenario:** "We are climbing. The Altimeter is moving, but the Airspeed Indicator is increasing rapidly like an altimeter. What is wrong?"
+- **Answer:** Blocked Pitot tube (Ram + Drain) with an open Static port.
 
----
-
-## 4. Visualizing Failures
+## Diagram: Connections
 
 ```mermaid
-flowchart TD
-    Start[Instrument Error Detected] --> CheckASI{ASI erratic?}
-    
-    CheckASI -- Yes --> CheckAlt{Altimeter/VSI Normal?}
-    CheckASI -- No --> CheckStatic[Suspect Static Blockage]
-    
-    CheckAlt -- Yes --> PitotBlock[Pitot Blockage]
-    CheckAlt -- No --> StaticBlock[Static Blockage]
-    
-    PitotBlock --> Heat[Turn on Pitot Heat]
-    StaticBlock --> AltStatic[Activate Alternate Static]
-    
-    AltStatic --> Emergency[Break VSI Glass \n(If no Alt Static)]
+graph TD
+    Pitot[Pitot Tube] --> ASI[Airspeed Indicator]
+    Static[Static Port] --> ASI
+    Static --> Alt[Altimeter]
+    Static --> VSI[Vertical Speed Ind]
 ```
 
----
-
-## 5. Oral Exam / Checkride Scenarios
-
-**Q1: "You are climbing at Vy, but your airspeed indicator starts increasing to the red line. What is happening?"**
-> **A:** My Pitot tube and drain hole are likely blocked (ice). The trapped high pressure makes the ASI act like an altimeter. I must rely on pitch and power settings to maintain safe flight.
-
-**Q2: "Your static port is blocked and you don't have an alternate static source. What can you do?"**
-> **A:** I can break the glass face of the **VSI** (Vertical Speed Indicator). It is the least critical instrument. This vents the system to cabin air (similar to alternate static).
-
-**Q3: "If you switch to Alternate Static, why does the Altimeter read high?"**
-> **A:** The pressure inside the cabin is slightly lower than outside. The altimeter interprets lower pressure as higher altitude.
-
-**Q4: "How do modern glass cockpits (G1000) detect these errors?"**
-> **A:** They use an **ADC (Air Data Computer)**. If the pitot/static inputs fail, the ADC will fail, and you will see big Red X's over the airspeed and altitude tapes. You revert to the standby "steam" gauges.
-
-**Q5: "Why is the Pitot Heat switch typically OFF on the ground?"**
-> **A:** The heating element is very hot and relies on airflow for cooling. Without airflow, it can burn out or damage the pitot tube cover if left on too long.
-
----
+## Study Drills
+1. Which instrument is the only one to use the Pitot tube? (ASI).
+2. If the static port freezes over, what can you do? (Use Alternate Static Source or break the VSI glass).
 
 ## References
-*   **PHAK Ch 8:** Flight Instruments.
-*   **POH Section 7:** Airplane Systems.
+- PHAK Chapter 8

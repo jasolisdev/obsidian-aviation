@@ -10,4 +10,4 @@
 
 ## Quick-review items
 - Build a `Preflight-Checklist` note that lists weight & balance, fuel, crew briefings, weather, NOTAMs, and autop checks.
-- Link each checklist item back to the source so you can defend it during the check ride (FAR, AIM, or your POH).
+- Link each checklist item back to the source so it can be defended during the checkride (FAR, AIM, or aircraft POH).

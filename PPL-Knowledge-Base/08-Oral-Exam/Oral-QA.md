@@ -1,18 +1,23 @@
 ---
 tags: [ppl, oral, qa]
+status: refining
+updated: 2026-02-11
 ---
 
 # Oral Q&A
+
+> [!IMPORTANT]
+> This is a large working drill bank. Use it for repetition, but verify date-sensitive/legal answers against [[00-Study-Plan/FAA-Current-References-2026|FAA Current References (2026 Baseline)]] before checkride week.
 
 ## Regulations (1-10)
 1. **Q:** What privileges does your private pilot certificate grant under FAR 61.113?
    **A:** Act as PIC carrying passengers or cargo for personal, business, or charity reasons, share pro rata expenses when authorized, and no compensation for the flight itself unless the flight fits a limited cost-sharing exception.
 2. **Q:** Which documents must be aboard the airplane for legal day VFR flight?
-   **A:** Airworthiness certificate, registration certificate, operating limitations (POH or placards), weight & balance data; also radio station license and medical certificate if required for the airspace you are entering.
+   **A:** ARROW documents must be in the aircraft: airworthiness, registration, operating limitations, and weight & balance (radio station license when required, usually international). Pilot docs (photo ID, pilot cert, medical/BasicMed) must be in your possession.
 3. **Q:** How long is a first-class medical valid for a private pilot under age 40?
    **A:** 60 months (5 years) for operations not requiring higher class; under 40 first-class is valid for private privileges for 60 months before downgrading to third-class timing.
 4. **Q:** Name two limitations placed on student pilots.
-   **A:** Cannot carry passengers, cannot fly for compensation, must have instructor endorsement for solo flight and cross-countries, and must remain within 25 NM (or as authorized) and into airspace only with proper training.
+   **A:** Cannot carry passengers, cannot fly for compensation or hire, and must have proper instructor endorsements for solo and solo cross-country operations.
 5. **Q:** What recent experience must you have to carry passengers?
    **A:** Within the preceding 90 days, three takeoffs and landings in the same category and class, and night passengers require three night takeoffs and landings to a full stop.
 6. **Q:** What preflight action is required by FAR 91.103?
@@ -54,19 +59,19 @@ tags: [ppl, oral, qa]
 22. **Q:** How do you recognize a vacuum pump failure in a steam-gauge airplane?
    **A:** The attitude indicator or heading indicator will start to tumble or drift and may be flagged with a vacuum warning light.
 23. **Q:** Why do you apply carburetor heat in flight?
-   **A:** To melt any ice forming in the carburetor throat when visible moisture exists and temperatures are favorable for icing; it also increases manifold pressure slightly and richens the mixture.
+   **A:** To melt/prevent carburetor ice in icing-prone conditions. Applying carb heat usually causes an initial power drop, then recovery if ice was present.
 24. **Q:** What is the maximum allowable magneto drop during a run-up?
-   **A:** The drop should not exceed 125 RPM difference between each magneto and the full-run engine speed, nor should you lose more than 50 RPM between the highest and lowest magneto.
+   **A:** Use your aircraft POH limits. In many trainers it is around a 125 RPM maximum drop on either mag and no more than 50 RPM difference between mags.
 25. **Q:** How do you respond to a generator warning light while climbing?
    **A:** Reduce electrical load, turn off unnecessary equipment, monitor the ammeter, and land at the nearest suitable airport if charging does not stabilize.
 26. **Q:** What does the ammeter show at engine start versus cruise?
    **A:** It shows a discharge as the starter draws current, then a positive charge once the alternator is online.
 27. **Q:** What is the fuel pump’s role in a piston airplane?
-   **A:** It delivers fuel from the tank to the engine, usually by a mechanical pump on the engine; an electric boost pump provides redundancy for takeoff/combat ice.
+   **A:** It delivers fuel from the tanks to the engine. Many aircraft use an engine-driven pump plus an electric boost pump for backup and critical phases of flight.
 28. **Q:** Why do you lean the mixture as you climb to cruise altitude?
    **A:** Air density drops with altitude so you must reduce fuel flow to maintain optimal fuel-air ratio and prevent fouling.
 29. **Q:** What is your priority list during an electrical failure?
-   **A:** Avionics first (master switch off, essential radios on), then landing lights/lighting as needed, and last ensure you maintain safe flight with backup instruments.
+   **A:** Aviate first, then reduce electrical load, troubleshoot per checklist, keep essential equipment/radios powered, and plan landing before battery depletion.
 30. **Q:** What information does the annunciator panel give you?
    **A:** It lights up to warn of system failures (oil pressure, alternator, landing gear), allowing you to cross-check instruments and take immediate action.
 
@@ -78,7 +83,7 @@ tags: [ppl, oral, qa]
 33. **Q:** What is the meaning of `FM` and `TEMPO` in a TAF?
    **A:** `FM` denotes a rapid and sustained change beginning at the listed time; `TEMPO` signals temporary fluctuations lasting less than an hour at a time.
 34. **Q:** How do you read a SIGMET from a briefing?
-   **A:** It warns of widespread hazardous weather (turbulence, icing, thunderstorms, volcanic ash) that affects all aircraft but especially non-gauge; note affected altitudes and valid period.
+   **A:** It warns of significant hazardous weather affecting all aircraft; focus on type, location, altitude, timing, and route impact.
 35. **Q:** What is the operational difference between an AIRMET and a SIGMET?
    **A:** AIRMETs cover less severe phenomena for smaller aircraft (IFR, mountain obscuration, turbulence), while SIGMETs are more severe, usually for all aircraft (e.g., severe icing, tornados).
 36. **Q:** How do you determine icing potential from the METAR/TAF numbers?
@@ -88,13 +93,13 @@ tags: [ppl, oral, qa]
 38. **Q:** Why does a DPE ask about the `WS` and `WC` groups on a wind shear report?
    **A:** They describe the location and altitude of wind shear or LLWS; you need to know where it will affect takeoff/landing.
 39. **Q:** What do the columns `QNH` and `Altim` mean on a METAR?
-   **A:** `QNH` is the altimeter setting in inches of mercury for local altimeter adjustments, ensuring clearance above obstacles.
+   **A:** Both are altimeter settings: `Altim` is typically inches of mercury (U.S. format), while `QNH` is typically hectopascals/millibars (international format).
 40. **Q:** How do you use radar summary charts in a briefing?
    **A:** Identify convective cells, precipitation intensity, and movement to determine safe routing around thunderstorms.
 41. **Q:** What do the prefixes `TSRA` or `SHRA` tell you in a METAR?
    **A:** TSRA denotes thunderstorms and rain—expect lightning and turbulence—while SHRA indicates showers, which imply convective activity.
 42. **Q:** What is the difference between `VFR` and `MVFR` ceilings?
-   **A:** VFR ceilings are at least 1,000 feet AGL with 3 SM visibility or better; MVFR ranges from 1,000 to 3,000 ft and/or 3-5 SM visibility.
+   **A:** In common weather-category use, VFR is ceiling greater than 3,000 feet AGL and visibility greater than 5 SM; MVFR is ceiling 1,000-3,000 and/or visibility 3-5 SM.
 43. **Q:** How do you interpret a TAF that ends in `PROB30`?
    **A:** There is a 30% chance of the specified conditions occurring during the stated time window.
 44. **Q:** What does `CB` in the sky condition mean?
@@ -126,9 +131,9 @@ tags: [ppl, oral, qa]
 56. **Q:** How can you tell Class B boundaries on a sectional chart?
    **A:** They are solid blue lines with identifying numbers showing top and bottom altitudes; the outer shelf is labeled (e.g., “30/10” for 3,000 ft top, 1,000 ft floor).
 57. **Q:** Describe the Class C airspace structure.
-   **A:** It has an inner core (usually 5 NM radius up to 4,000 ft AGL) and an outer shelf (10 NM radius) that typically starts at 1,200 ft AGL; you must establish two-way comms before entry.
+   **A:** Typical Class C has a 5 NM core from surface to 4,000 feet above airport elevation and a 10 NM shelf from about 1,200 up to 4,000 above airport elevation; establish two-way radio communications before entry.
 58. **Q:** What clearance do you need before entering Class B?
-   **A:** Specific ATC clearance that uses the word “cleared,” and you must also have a Mode C transponder and be on the published squawk.
+   **A:** An explicit ATC clearance to enter Class B (for example, “Cleared into the Bravo”), with required equipment/communications.
 59. **Q:** What are VFR cloud clearance requirements in Class G below 1,200 AGL during the day?
    **A:** 1 statute mile visibility and clear of clouds.
 60. **Q:** When is Mode C altitude reporting required?
@@ -138,7 +143,7 @@ tags: [ppl, oral, qa]
 62. **Q:** How do you calculate your wind correction angle for pilotage?
    **A:** Use the wind triangle: determine wind direction/speed, plot true course, solve for heading by adding or subtracting the required crab angle.
 63. **Q:** Why do you fly to a VOR radial and then track a reciprocal course?
-   **A:** Station passage ensures you have passed the VOR, so you switch to the inbound or outbound radial reliably and avoid reverse sensing.
+   **A:** Because radials are defined outbound from the station; inbound tracking generally uses the reciprocal course to avoid reverse sensing errors.
 64. **Q:** What is RAIM and why is it important?
    **A:** Receiver Autonomous Integrity Monitoring checks GPS satellite consistency; without RAIM, you cannot rely on GPS for navigation.
 65. **Q:** What do you do if RAIM fails en route?
@@ -150,7 +155,7 @@ tags: [ppl, oral, qa]
 68. **Q:** How often should you check GPS databases?
    **A:** Before each flight, especially for navigation waypoints and airspace boundaries; maintain the published database cycle on your device.
 69. **Q:** What is the purpose of the VFR sectional’s airport traffic pattern indicators?
-   **A:** They show runway orientation, circuit direction, towered vs. non-towered info, and whether the airport is flooded with special operations (heliports, gliders).
+   **A:** They indicate traffic pattern direction and key airport operating information so you can join and fly the pattern correctly.
 70. **Q:** How do compass errors affect navigation and how do you correct them?
    **A:** Errors include deviation (magnetic interference) and variation (difference between true and magnetic north); correct by referring to a compass chart or by adding/subtracting variation.
 71. **Q:** What is the recommended VFR cruising altitude for easterly and westerly courses?
@@ -158,17 +163,17 @@ tags: [ppl, oral, qa]
 72. **Q:** How do you file a VFR flight plan and when must you close it?
    **A:** File via FAA Flight Service or online, include route, altitude, ETAs, and close it after landing by calling the facility or through electronic means.
 73. **Q:** What do the numbers near the VOR symbol (e.g., 46/11) represent?
-   **A:** The floor and ceiling of the Class B or C shelf (e.g., 4,600 ft top, 1,100 ft floor) or service volume altitudes.
+   **A:** Similar number pairs are usually airspace shelf ceilings/floors in hundreds of feet MSL on sectionals; verify context from nearby chart symbology.
 74. **Q:** How do you plan a cross-country using pilotage and VORs?
    **A:** Plot legs between prominent checkpoints, note VOR radials and distances, compute headings after accounting for wind, and verify with GPS or DME.
 75. **Q:** Why should you request a Standard Weather Briefing from Flight Service?
    **A:** It provides complete info, including METARs, TAFs, NOTAMs, PIREPs, SIGMETs, and a risk assessment, which you can log to show CFIs/DPEs you briefed properly.
 76. **Q:** What is the VOR service volume for a terminal VOR?
-   **A:** Typically up to 1,000 ft but effective service volume extends up to 25-40 NM depending on altitude; check the instrument approach plate for specifics.
+   **A:** Terminal (T) VOR service volume is generally 25 NM from 1,000 to 12,000 feet AGL.
 77. **Q:** How do you use GPS to confirm you are tracking the correct airway?
    **A:** Verify the GPS database airway name, look for the intended course, and cross-check with the CDI deviation flag.
 78. **Q:** What is the easiest way to determine if you are inside TFR/Prohibited Area?
-   **A:** Check NOTAMs or sectional TFR markings (blue hatched areas) before entering, and always call the controlling agency if in doubt.
+   **A:** Check current NOTAM/TFR sources before and during flight; do not rely on old charts for TFR status.
 79. **Q:** How do you maintain situational awareness when transitioning through complex airspace?
    **A:** Monitor position via VOR/GPS, listen to the appropriate frequency, and keep the sectional/chart easily visible in the cockpit.
 80. **Q:** How do compass deviations vary with heading, and how do you find the corrective value?
@@ -190,7 +195,7 @@ tags: [ppl, oral, qa]
 87. **Q:** What is the recovery technique for spatial disorientation (the leans)?
    **A:** Trust the instruments, level the wings, then reference attitude indicator to regain the desired flight path.
 88. **Q:** What are the dangers of carbon monoxide exposure in the cockpit?
-   **A:** Headache, dizziness, impaired judgment; respond by using the cabin heat properly, opening vents, and landing if symptoms continue.
+   **A:** Headache, dizziness, impaired judgment, and possible incapacitation. Treat as an emergency: close cabin heat, open fresh air, use oxygen if available, and land as soon as practical.
 89. **Q:** How can you handle stress before a flight?
    **A:** Recognize the stressor, consider delegating tasks, keep a clear go/no-go plan, and delay the flight if stress exceeds your personal minimums.
 90. **Q:** What happens when you are under time pressure?
@@ -224,7 +229,7 @@ tags: [ppl, oral, qa]
 103. **Q:** How does crossing into high density altitude affect climb rate?
    **A:** Climb performance decreases because the engine makes less power and the wings produce less lift.
 104. **Q:** Why do you add a safety margin to computed landing distance?
-   **A:** Factors like pilot technique, runway condition, and gusts can degrade performance, so you typically plan for at least 50% more than the POH value.
+   **A:** Real-world conditions and technique vary from chart assumptions, so add a conservative buffer above POH numbers.
 105. **Q:** What effect does airplane weight have on stall speed?
    **A:** Higher weight increases stall speed while lower weight decreases it.
 106. **Q:** What is the procedure to compute the moment of a passenger?
@@ -272,7 +277,7 @@ tags: [ppl, oral, qa]
 126. **Q:** How do you plan for thunderstorms when filing a VFR course?
    **A:** Avoid them entirely, reroute around the convective area, and include extra fuel for longer distances.
 127. **Q:** How do you select an alternate that’s still viable if your destination weather worsens?
-   **A:** Pick an airport with published instrument procedures, good weather, and services—even though you are VFR, it adds options if you need to go IFR.
+   **A:** Pick an airport with favorable weather, suitable runway/services, and practical access based on your aircraft and fuel plan.
 128. **Q:** What is the benefit of briefing passengers about go/no-go decisions?
    **A:** They understand why you might delay or cancel due to safety, reducing pressure to fly in marginal conditions.
 129. **Q:** How do you document your risk assessment for the DPE?
@@ -284,7 +289,7 @@ tags: [ppl, oral, qa]
 131. **Q:** Describe the first steps if you experience an engine failure after takeoff.
    **A:** Pitch for best glide, select a safe landing area ahead, lower the nose to maintain speed, and attempt restart only after gliding clear of obstacles.
 132. **Q:** What does the emergency landing pattern look like?
-   **A:** Enter a traffic pattern toward your selected landing area, fly the “low key, base, final” while gliding at best glide speed, and land with flaps as appropriate.
+   **A:** Maintain best glide, choose a touchdown point, plan a manageable pattern (high/low key style if trained), and keep options open to adjust for wind/energy.
 133. **Q:** How do you handle an electrical failure in IMC with limited instruments?
    **A:** Use backup instruments, request assistance from ATC for vectors, and plan for the nearest suitable airport while prioritizing control of the airplane.
 134. **Q:** What do you do if a fire starts during taxi?
@@ -306,7 +311,7 @@ tags: [ppl, oral, qa]
 141. **Q:** How do you decide to fly IFR instead of VFR?
    **A:** Assess weather against personal minimums, verify instrument currency, file an IFR flight plan, and only choose IFR when VFR conditions cannot be met safely.
 142. **Q:** How do you plan to avoid terrain on a cross-country?
-   **A:** Review topo features on the sectional, maintain recommended altitudes (1,000 ft above obstacles in mountainous terrain), and use GPS terrain awareness when available.
+   **A:** Review terrain/obstacle data, choose safe route altitudes with margin, and cross-check with charts/GPS terrain tools.
 143. **Q:** What resources do you reference mid-flight if a question arises?
    **A:** POH charts, kneeboarded checklists, or EFB with digital manuals; always keep your head up to continue scanning.
 144. **Q:** How do you manage cockpit distractions?
@@ -320,7 +325,7 @@ tags: [ppl, oral, qa]
 148. **Q:** What technique helps avoid runway incursions at a non-towered field?
    **A:** Listen to the UNICOM, announce positions/intentions, visually clear the runway before taxiing or entering, and hold short at controlled taxiways.
 149. **Q:** How do you maintain directional control during a crosswind landing?
-   **A:** Use a wing-low crab toward the wind to maintain runway alignment, then apply rudder to align with the runway on touchdown before easing away the aileron.
+   **A:** Use either crab-then-decrab or wing-low (sideslip) technique as trained, and maintain aileron into the wind through touchdown and rollout.
 150. **Q:** How do you track fuel burn and time en route?
    **A:** Log start/end times, note fuel used every hour, and compare to planned fuel burn to detect variances early.
 
@@ -330,7 +335,7 @@ tags: [ppl, oral, qa]
 152. **Q:** Where do you find the operating limitations for your airplane?
     **A:** In the POH/AFM, placards, or the aircraft’s Type Certificate Data Sheet; they are part of the required documentation.
 153. **Q:** How do you tell if a required document is expired?
-    **A:** Look at the issue/expiration dates; registration lasts one year, airworthiness is good until the aircraft is modified or sold, and medicals have defined validity periods.
+    **A:** Check each document against its own validity rule (for example, medical durations by class/age and registration expiration on the certificate). Airworthiness generally remains effective as long as the aircraft is maintained and in a safe condition.
 154. **Q:** When is a radio station license required?
     **A:** Only for operations outside the United States or when international requirements apply; domestic VFR flights usually do not need one.
 155. **Q:** What fuel reserve is required for day VFR flight?
@@ -343,8 +348,8 @@ tags: [ppl, oral, qa]
     **A:** 3 statute miles visibility and clear of clouds (FAR 91.155).
 159. **Q:** What are the Class C minima?
     **A:** 3 SM visibility, 500 feet below clouds, 1,000 feet above, and 2,000 feet horizontal.
-160. **Q:** How does Class G below 1,200 AGL differ during the day?
-    **A:** 1 SM visibility and clear of clouds; night minima are higher.
+160. **Q:** How does Class G below 1,200 feet AGL differ during the day?
+    **A:** You need 1 SM visibility and remain clear of clouds; night minima are higher.
 161. **Q:** What are the Class G night minima below 10,000 feet?
     **A:** 3 SM visibility and 500/1,000/2,000 feet cloud clearance (below 10,000 feet).
 162. **Q:** When is special VFR clearance required?
@@ -356,7 +361,7 @@ tags: [ppl, oral, qa]
 165. **Q:** Who yields when gliders and powered airplanes converge?
     **A:** Powered airplanes must yield to gliders and balloons in most cases.
 166. **Q:** What documents must a pilot present upon FAA request?
-    **A:** Airworthiness, registration, pilot certificate, medical certificate, and relevant logbook entries.
+    **A:** Pilot certificate, photo ID, medical/BasicMed qualification, and required logbook/endorsement evidence as applicable; aircraft documents must also be available during inspection.
 167. **Q:** What does ATOMATOFLAMES capture?
     **A:** The day VFR required equipment: Altimeter, Tachometer, Oil temp, Manifold pressure (if required), Airspeed, Temp, Oil pressure, Fuel gauges, Landing gear position lights, Anti-collision lights, Magnetic compass, Emergency locator, Seat belts.
 168. **Q:** What do the night requirements FLAPS represent?
@@ -368,9 +373,9 @@ tags: [ppl, oral, qa]
 171. **Q:** How long is a third-class medical valid for a private pilot under 40?
     **A:** 60 months for private pilot privileges.
 172. **Q:** What happens when you miss the 90-day passenger currency window?
-    **A:** Fly three takeoffs and landings in the same category/class with an instructor or safety pilot to regain currency.
+    **A:** Complete the required three takeoffs and landings again in the same category/class and type if required; an instructor is not automatically required unless another limitation applies.
 173. **Q:** Does simulated instrument time count as PIC time?
-    **A:** Yes, when you are sole manipulator of the controls while wearing a view-limiting device (FAR 61.51(g)).
+    **A:** It can, if you are rated in category/class (and type if required) and are sole manipulator while logging simulated instrument appropriately.
 174. **Q:** What must a student pilot have to solo cross-country?
     **A:** A logbook endorsement covering the specific route, airplane, and day/time per FAR 61.87.
 175. **Q:** What endorsement is required for high-performance airplanes?
@@ -378,9 +383,9 @@ tags: [ppl, oral, qa]
 176. **Q:** When must the PIC carry a medical certificate?
     **A:** Anytime acting as PIC or crew member; the medical must be available upon request.
 177. **Q:** Can you log PIC time while receiving instruction?
-    **A:** Only if you are the sole manipulator of the controls and the instructor endorses it.
+    **A:** Yes, if you are rated in category/class (and type if required) and are sole manipulator of the controls; dual received and PIC may both be logged when legal.
 178. **Q:** How often must the transponder be inspected?
-    **A:** Every 24 calendar months per FAR 91.413 and 91.207(b).
+    **A:** Every 24 calendar months per FAR 91.413.
 179. **Q:** What does FAR 91.3(a) declare?
     **A:** The PIC is directly responsible for, and the final authority as to, the safe operation of the flight.
 180. **Q:** What if you plan to land at an airport with no fuel services?
@@ -404,15 +409,15 @@ tags: [ppl, oral, qa]
 189. **Q:** What minimum altitude applies over congested areas?
     **A:** 1,000 feet above the highest obstacle and 2,000 feet horizontal distance from it.
 190. **Q:** What altitude applies over sparsely populated areas?
-    **A:** 500 feet above the surface and 500 feet from any person, vehicle, or structure unless you are over open water.
+    **A:** You may operate below 500 AGL only if you remain at least 500 feet from any person, vessel, vehicle, or structure (91.119(c)).
 191. **Q:** May you fly through an active MOA?
-    **A:** Yes, with ATC authorization, though they may not provide traffic separation.
+    **A:** Yes. VFR flight is permitted, but use extreme caution and obtain traffic advisories/workload permitting from ATC when available.
 192. **Q:** What is required to fly through restricted or prohibited airspace?
     **A:** Explicit authorization from the controlling agency.
 193. **Q:** How do you treat temporary flight restrictions?
     **A:** Check NOTAMs before each flight and avoid TFRs unless you have approval.
 194. **Q:** When must the ELT be inspected?
-    **A:** Every 12 calendar months and after 1 cumulative hour of use or after being half-hourly tested per FAR 91.207(c)(1).
+    **A:** ELT inspection is every 12 calendar months (91.207(d)); battery replacement is required after 1 cumulative hour of use or when 50% of useful life has expired (91.207(c)).
 195. **Q:** When is the altimeter inspection due?
     **A:** Every 24 calendar months per FAR 91.411.
 196. **Q:** Why is FAR 91.103 important?
@@ -420,7 +425,7 @@ tags: [ppl, oral, qa]
 197. **Q:** What steps does FAR 91.213(d) require for INOP equipment?
     **A:** Verify the equipment isn't required, placard it INOP, log the discrepancy, and ensure all required inspections are up to date.
 198. **Q:** How is night defined for logging night landings?
-    **A:** From the end of evening civil twilight to the beginning of morning civil twilight per 14 CFR 1.1.
+    **A:** For passenger-carrying night currency, use the 61.57(b) window: 1 hour after sunset to 1 hour before sunrise.
 199. **Q:** What distinguishes a restricted area from a prohibited area?
     **A:** Restricted areas contain hazards and need permission; prohibited areas are off-limits to all aircraft unless specifically authorized.
 200. **Q:** How do you stay legal flying passengers at night?
@@ -444,7 +449,7 @@ tags: [ppl, oral, qa]
 208. **Q:** What are the cloud/visibility minima in Class B? #weather (ACS W.I.A)
     **A:** 3 SM visibility and clear of clouds per [[01-Regulations/Notes/VFR-Weather-Minimums|minima note]].
 209. **Q:** What are the Class C minima? #weather (ACS W.I.A)
-    **A:** 3 SM visibility, 500 feet below, 1,000 feet above, and 2,000 feet horizontal.
+    **A:** 3 SM visibility, 500 feet below, 1,000 feet above, 2,000 feet horizontal.
 210. **Q:** How do Class G minima differ below 1,200 AGL during the day? #weather (ACS W.I.A)
     **A:** 1 SM visibility and clear of clouds, but night rises to 3/500/1/2.
 211. **Q:** Who has the right-of-way on head-on approaches? #regs (ACS P.II.A)
@@ -456,13 +461,13 @@ tags: [ppl, oral, qa]
 214. **Q:** What defines a VFR personal minimum for ceiling? #weather (ACS W.III.A)
     **A:** A conservative buffer above the legal minimum (e.g., add 500–1,000 feet per your experience) as captured in the [[04-Weather/Notes/Weather-Go-NoGo-Decision-Tree|go/no-go decision tree]].
 215. **Q:** How do you log PIC time when you are sole manipulator of controls? #regs (ACS PA.III.B)
-    **A:** Record the flight time as PIC per FAR 61.51 when acting as PIC.
+    **A:** You may log PIC when you are sole manipulator in an aircraft for which you are rated (category/class/type as required) under FAR 61.51.
 216. **Q:** Does simulated instrument time count as PIC? #regs (ACS PA.III.B)
-    **A:** Yes, if you are sole manipulator and wearing a view-limiting device (FAR 61.51(g)).
+    **A:** It may, when PIC-logging conditions are met and simulated instrument is logged correctly under FAR 61.51.
 217. **Q:** How many takeoffs and landings restore passenger currency? #regs (ACS PA.III.C)
     **A:** Three takeoffs and landings in the same category/class and type (day vs. night) within 90 days.
 218. **Q:** What happens after 90 days without passenger takeoffs and landings? #regs (ACS PA.III.C)
-    **A:** Fly with a safety pilot or instructor to reestablish the required takeoffs and landings.
+    **A:** Reestablish currency by completing the required takeoffs and landings in the proper category/class and day/night condition before carrying passengers.
 219. **Q:** What endorsement is needed for a student solo cross-country? #regs (ACS PA.III.A)
     **A:** Instructor logbook endorsement covering the specific route, airplane, and day/time per [[01-Regulations/Notes/Logging-PIC-Endorsements|endorsements note]].
 220. **Q:** What endorsement permits high-performance airplanes? #regs (ACS PA.III.A)
@@ -470,13 +475,13 @@ tags: [ppl, oral, qa]
 221. **Q:** What is the minimum safe altitude over congested areas? #regs (ACS P.III.A)
     **A:** At least 1,000 feet above the highest obstacle and 2,000 feet horizontal from it.
 222. **Q:** What about non-congested areas? #regs (ACS P.III.A)
-    **A:** 500 feet above the surface and 500 feet from people, vehicles, or structures unless over open water or sparsely populated areas (still 500 feet above).
+    **A:** In those areas, operate no closer than 500 feet to any person, vessel, vehicle, or structure (91.119(c)).
 223. **Q:** When is Mode C required? #nav (ACS N.I.A)
-    **A:** Within Class A, B, C, and certain areas like the 30 NM veil around Class B, plus above 10,000 feet MSL (excluding class B) per the scope of [[01-Regulations/FAR-AIM/Index|FAR/AIM]].
+    **A:** In Class A, B, and C airspace; within the Mode C veil around Class B; and generally above 10,000 MSL (except when at/below 2,500 AGL), per 91.215.
 224. **Q:** How often must the transponder inspection occur? #systems (ACS S.IV.A)
-    **A:** Every 24 calendar months per FAR 91.413 and 91.207(b).
+    **A:** Every 24 calendar months per FAR 91.413.
 225. **Q:** What is the ELT inspection interval? #systems (ACS S.IV.A)
-    **A:** Every 12 calendar months and after 1 cumulative hour of use or half-hourly test per FAR 91.207(c)(1).
+    **A:** ELT inspection is every 12 calendar months; battery replacement follows the 1-hour use/50%-life rule in 91.207(c).
 226. **Q:** When is the altimeter system inspected? #systems (ACS S.IV.A)
     **A:** Every 24 calendar months per FAR 91.411.
 227. **Q:** How does density altitude affect climb? #performance (ACS P.I.A)
@@ -518,7 +523,7 @@ tags: [ppl, oral, qa]
 245. **Q:** Scenario: Wind is straight down the runway but gusty; what performance change do you expect? #performance #aero (ACS P.I.A)
     **A:** Gusts increase lift momentarily but also risk runway overshoot; add half the gust spread to approach speed per [[02-Aerodynamics/Notes/Lift-Drag-Dynamics|lift/drag note]].
 246. **Q:** Scenario: The pitot heat light illuminates when outside air temperature drops below 0°C; what immediate action? #systems (ACS S.I.A)
-    **A:** Activate alternate static sources and pitot heat if available, citing [[03-Aircraft-Systems/Notes/Pitot-Static-System|pitot-static guide]].
+    **A:** Turn on pitot heat per checklist and monitor airspeed behavior; use alternate/static backup procedures only if blockage indications appear.
 247. **Q:** Scenario: You planned fuel for 1.5 hours with 30 minute reserve, but a 20-knot headwind increases burn; what do you do? #performance #regs (ACS P.I.A)
     **A:** Land at the nearest suitable airport before reaching the planned reserve and log the deviation; do not risk the minimum reserve.
 248. **Q:** Scenario: You are cleared through a MOA that becomes active en route; how do you respond? #airspace #nav (ACS N.I.A)
@@ -528,7 +533,7 @@ tags: [ppl, oral, qa]
 250. **Q:** Scenario: A severe thunderstorm is forecast along your filed route; how do you change the plan? #weather #nav (ACS W.III.A)
     **A:** Avoid the storm by rerouting around it or cancelling; document the mitigation plan in the [[05-Navigation/Notes/Flight-Planning-Workflow|planning workflow]].
 251. **Q:** Scenario: Midway, the left magneto drops 120 RPM; what steps do you take? #systems (ACS S.III.A)
-    **A:** Continue with both mags if the drop is within limits, monitor engine, and land as soon as practical for maintenance.
+    **A:** Compare against POH run-up limits, use BOTH if appropriate, monitor engine indications, and land for maintenance evaluation if abnormality persists.
 252. **Q:** Scenario: The weather brief shows a SIGMET covering your alternate airport; what is your decision? #weather #regs (ACS W.I.A)
     **A:** Choose another airport or delay; avoid relying on an airport with SIGMET conditions per [[04-Weather/Notes/METAR-TAF-Interpretation|METAR/TAF note]].
 253. **Q:** Scenario: Your passengers pressure you to complete the flight despite deteriorating clouds; what do you say? #humanfactors (ACS HF.I.A)
@@ -539,10 +544,10 @@ tags: [ppl, oral, qa]
     **A:** Exit the icing area by descending or turning to warmer air, activate de-ice systems if available, and log the event.
 256. **Q (Trick):** Can you fly VFR across Class B without a clearance if your transponder is off? #regs (ACS P.II.A)
     **A:** No—the trick is you also need an explicit ATC clearance besides Mode C; being in a Mode C veil with transponder off is a violation.
-257. **Q (Trick):** Does an AIS MISS, AIRMET, and SIGMET all have the same validity? #weather (ACS W.I.A)
-    **A:** Trick answer: no—SIGMETs cover severe widespread hazards, remain active longer, and have different issuance protocols than AIRMETs or advisories.
+257. **Q (Trick):** Do AIRMETs, SIGMETs, and Convective SIGMETs all have the same validity? #weather (ACS W.I.A)
+    **A:** Trick answer: no. AIRMETs, SIGMETs, and other advisories have different issuance criteria and validity periods.
 258. **Q (Trick):** If your fuel gauges show 1/2, can you assume the tanks are at half capacity? #systems (ACS S.III.A)
-    **A:** Trick: the gauges may be inaccurate; cross-check burn with poH/hourly flow and use the checklist factor before trusting them.
+    **A:** Trick: no. Cross-check gauges with known fuel onboard, burn calculations, and POH procedures.
 259. **Q (Trick):** Does the presence of a VFR sectional chart guarantee no TFRs exist? #nav (ACS N.I.A)
     **A:** Trick: TFRs change frequently—always check NOTAMs; the chart may not yet reflect a newly published TFR.
 260. **Q (Trick):** Can you legally fly passengers with a third-class medical that became invalid today? #regs (ACS PA.III.C)
@@ -680,11 +685,11 @@ tags: [ppl, oral, qa]
 323. **Q:** What is the difference between Static and Dynamic stability? #aero (ACS I.F.K.1)
     **A:** Static is the initial tendency to return to equilibrium. Dynamic is how it behaves over time (damping out oscillations).
 324. **Q:** Which stability axis does the elevator control? #aero (ACS I.F.K.1)
-    **A:** Longitudinal stability (Pitching around the lateral axis).
+    **A:** Elevator controls pitch about the lateral axis and strongly affects longitudinal stability.
 325. **Q:** What is "dihedral" and what does it do? #aero (ACS I.F.K.1)
     **A:** The upward angle of the wings. It provides lateral stability (Roll stability) by increasing lift on the low wing during a slip.
 326. **Q:** Why does stall speed increase in a turn? #aero (ACS PA.V.A)
-    **A:** To maintain altitude in a bank, you must increase total lift to counter centrifugal force. This increases "Load Factor," meaning the wing supports more weight, reaching critical AoA at a higher speed.
+    **A:** In a level bank, the wing must produce more total lift to support aircraft weight; this raises load factor and therefore raises stall speed.
 327. **Q:** What is the load factor in a 60-degree bank level turn? #aero (ACS PA.V.A)
     **A:** 2 Gs. The effective weight of the aircraft doubles.
 328. **Q:** What are the primary flight controls? #systems (ACS I.B.K.3)
@@ -844,7 +849,7 @@ tags: [ppl, oral, qa]
 403. **Q:** If the CG moves aft, what happens to stall speed? #performance (ACS PA.VIII.A)
     **A:** It decreases. (The wing is carrying less load).
 404. **Q:** Why is an aft CG dangerous? #performance (ACS PA.VIII.A)
-    **A:** It reduces longitudinal stability and can make spin recovery impossible due to reduced rudder leverage.
+    **A:** It reduces longitudinal stability and can significantly degrade stall/spin recovery characteristics.
 405. **Q:** What is "Basic Empty Weight"? #performance (ACS PA.I.C)
     **A:** The standard empty weight of the aircraft plus optional equipment and unusable fuel/oil.
 406. **Q:** What is "Useful Load"? #performance (ACS PA.I.C)
@@ -880,13 +885,13 @@ tags: [ppl, oral, qa]
 421. **Q:** What is an AIRMET Sierra? #weather (ACS PA.I.C)
     **A:** Advisory for IFR conditions and/or mountain obscuration.
 422. **Q:** What is an AIRMET Tango? #weather (ACS PA.I.C)
-    **A:** Advisory for moderate turbulence or surface winds > 30 kts.
+    **A:** Advisory for moderate turbulence, sustained surface winds of 30 knots or more, and/or low-level wind shear.
 423. **Q:** What is an AIRMET Zulu? #weather (ACS PA.I.C)
     **A:** Advisory for moderate icing.
 424. **Q:** What is a SIGMET? #weather (ACS PA.I.C)
-    **A:** Advisory for severe weather affecting all aircraft (Severe Icing, Severe Turbulence, Dust Storms, Volcanic Ash).
+    **A:** Advisory for significant non-convective hazards (for example severe icing/turbulence, dust/sandstorms, volcanic ash) affecting all aircraft.
 425. **Q:** What does a Convective SIGMET cover? #weather (ACS PA.I.C)
-    **A:** Tornadoes, lines of thunderstorms, embedded thunderstorms, hail > 3/4 inch, gusts > 50 kts.
+    **A:** Severe convective hazards such as tornadoes, severe or embedded thunderstorms, lines of thunderstorms, hail at least 3/4 inch, or surface gusts at least 50 knots.
 426. **Q:** How long is a standard METAR valid? #weather (ACS PA.I.C)
     **A:** It is an observation, so it has no "validity" period, but it is typically issued hourly.
 427. **Q:** What does a sign with white text on a red background mean? #airports (ACS PA.II.A)
@@ -902,7 +907,7 @@ tags: [ppl, oral, qa]
 432. **Q:** What do runway threshold markings ("piano keys") indicate? #airports (ACS PA.II.A)
     **A:** They designate the beginning of the runway available for landing. The number of stripes relates to runway width.
 433. **Q:** What is a Displaced Threshold? #airports (ACS PA.II.A)
-    **A:** A portion of the runway available for takeoff and taxi, but NOT for landing. Marked by white arrows.
+    **A:** A threshold moved down-runway. The area before it is not for touchdown in that direction, though it may be available for taxi, takeoff, and rollout from the opposite direction.
 434. **Q:** What color are runway edge lights? #airports (ACS PA.II.A)
     **A:** White (turning amber on the last 2,000 ft).
 435. **Q:** What color are taxiway edge lights? #airports (ACS PA.II.A)
@@ -946,11 +951,11 @@ tags: [ppl, oral, qa]
 453. **Q:** What does "RAIM" stand for? #nav (ACS PA.VI.A)
     **A:** Receiver Autonomous Integrity Monitoring.
 454. **Q:** Why is RAIM important for VFR pilots? #nav (ACS PA.VI.A)
-    **A:** It ensures the GPS position is accurate. Without RAIM, you shouldn't trust the GPS.
+    **A:** It provides GPS integrity awareness. For VFR, use GPS with cross-checks (chart/other nav sources), especially if integrity alerts appear.
 455. **Q:** How many satellites are needed for a 3D position? #nav (ACS PA.VI.A)
     **A:** 4.
 456. **Q:** How many satellites are needed for RAIM? #nav (ACS PA.VI.A)
-    **A:** 5 (or 4 with Baro-Aiding).
+    **A:** In legacy RAIM logic, typically 5 (or 4 with baro-aiding). Modern SBAS-equipped systems may use different integrity methods.
 457. **Q:** What is "Hypoxic Hypoxia"? #medical (ACS PA.I.H)
     **A:** Lack of oxygen available to the body due to reduced atmospheric pressure (Altitude).
 458. **Q:** What is "Hypemic Hypoxia"? #medical (ACS PA.I.H)
@@ -960,7 +965,7 @@ tags: [ppl, oral, qa]
 460. **Q:** What is "Stagnant Hypoxia"? #medical (ACS PA.I.H)
     **A:** Oxygen-rich blood is not moving to the tissues (e.g., High Gs or cold constriction).
 461. **Q:** What is the antidote for Hyperventilation? #medical (ACS PA.I.H)
-    **A:** Talk aloud, sing, or breathe into a bag to slow breathing rate and restore CO2 levels.
+    **A:** Slow your breathing deliberately, speak aloud/sing, reduce workload, and land if symptoms persist.
 462. **Q:** What is the "Coriolis Illusion"? #medical (ACS PA.I.H)
     **A:** A tumbling sensation caused by moving your head abruptly during a prolonged constant-rate turn.
 463. **Q:** What is the "Graveyard Spiral"? #medical (ACS PA.I.H)
@@ -1039,129 +1044,3 @@ tags: [ppl, oral, qa]
     **A:** You lose adaptation immediately and must start over.
 500. **Q:** Can you fly with a bad cold or sinus infection? #medical (ACS PA.I.H)
     **A:** Not recommended. Descent can cause a "Sinus Block" (excruciating pain and potential eardrum rupture).
-
-## Checkride Gold Scenarios - Batch 1 (Added Jan 04)
-
-### Left Turning Tendencies
-101. **Q:** "I'm on takeoff roll and I shove the throttle forward quickly. What happens?"
-     **A:** The nose will yaw sharply to the left due to sudden Torque and Spiraling Slipstream. Correct with prompt Right Rudder.
-102. **Q:** "Which of the four tendencies is most dominant during a slow-flight climb?"
-     **A:** P-Factor. High Angle of Attack maximizes the asymmetry between descending and ascending blades.
-103. **Q:** "Explain why a 'skidding left turn' in the pattern is dangerous."
-     **A:** Skidding (too much left rudder) slows the inside wing. If it stalls, the airplane enters a spin instantly.
-104. **Q:** "Does a C172 have a rudder trim tab? How does it work?"
-     **A:** It is a ground-adjustable tab. It is bent to align the nose for cruise flight, meaning you still need right rudder in a climb.
-105. **Q:** "On a Go-Around, you apply full power. What is your very next physical action?"
-     **A:** Right Rudder! Power spike = Torque + P-factor spike.
-
-### Reciprocating Engine (LHAND)
-106. **Q:** "During your run-up, you switch to the LEFT magneto and the engine quits completely. Analysis?"
-     **A:** You just grounded the Right magneto. If the engine dies, the Left magneto (the one supposedly 'on') is dead.
-107. **Q:** "Why do we check the oil pressure right after starting?"
-     **A:** To ensure the pump is working. No pressure = no lubrication = engine seizure in <1 minute.
-108. **Q:** "Climbing out, CHT is near red line. Action?"
-     **A:** Lower nose (airspeed cooling), Enrich mixture (fuel cooling), Reduce power.
-109. **Q:** "Why is a broken magneto P-lead dangerous?"
-     **A:** The mag is "Hot". Moving the prop by hand could start the engine, even with keys OFF.
-110. **Q:** "Turbocharger vs. Supercharger?"
-     **A:** Turbo uses exhaust gas (laggy, free energy); Supercharger is engine-driven (instant, steals power).
-
-### Weather Hazards
-111. **Q:** "You see a lenticular cloud. What does it mean?"
-     **A:** Standing Mountain Wave with severe turbulence. Avoid the rotor zones below/near it.
-112. **Q:** "Most dangerous stage of a thunderstorm?"
-     **A:** Mature Stage (rain starts). It has updrafts AND downdrafts (shear/microbursts).
-113. **Q:** "Fog on a calm, clear morning?"
-     **A:** Radiation Fog. Will likely burn off with the sun.
-114. **Q:** "Can you fly through a Cold Front?"
-     **A:** Unwise. Expect squall lines, rapid drops, and shear. Wait it out.
-115. **Q:** "3 Ingredients for a Thunderstorm?"
-     **A:** Moisture, Instability, Lifting Action.
-
-### Regulations (ARROW)
-116. **Q:** "Does the Airworthiness Certificate expire?"
-     **A:** No, as long as the aircraft is maintained (Annuals, ADs).
-117. **Q:** "Can I use a generic POH from Sporty's?"
-     **A:** No. You need the Serial-Number specific AFM with the Weight & Balance data for *that* plane.
-118. **Q:** "Where must the Airworthiness Certificate be?"
-     **A:** Displayed at the cabin entrance, visible to passengers.
-119. **Q:** "Is a Radio Station License required?"
-     **A:** Only for international flights (e.g., Canada/Bahamas).
-120. **Q:** "Registration issued 01/01/2020. Is it valid today?"
-     **A:** Yes. Post-2010 registrations are valid for 7 years (expires 2027).
-
-## Checkride Gold Scenarios - Batch 2 (Added Jan 04)
-
-### Navigation (VOR & GPS)
-501. **Q:** "You tune a VOR and the needle is erratic. You are 50 miles away at 2,000 ft. Why?"
-     **A:** I am likely outside the **Service Volume**. A Low or High VOR is reliable to 40 NM at that altitude. At 50 NM, the signal is weak or blocked by line-of-sight.
-502. **Q:** "What is the 'Cone of Confusion'?"
-     **A:** The area directly above the VOR station where the signal is scrambled. The TO/FROM flag will flicker, and the CDI will swing fully.
-503. **Q:** "How do you verify your GPS is providing accurate information?"
-     **A:** I check the status page for **RAIM availability** and look for any integrity error messages. I also cross-check GPS waypoints against VORs or visual landmarks.
-504. **Q:** "Can you use a VOR check found in the back of the chart supplement (A/FD)?"
-     **A:** Yes. These are published Ground or Airborne checkpoints. verify the error is within limits (+/- 4° ground, +/- 6° air).
-505. **Q:** "Does your aircraft have WAAS? How do you know?"
-     **A:** If yes, I can fly LPV approaches. If no (e.g., standard G430 non-W), I am limited to LNAV minimums and must check RAIM prediction before flight.
-
-### Performance (Density Altitude)
-506. **Q:** "You are departing Big Bear (L35) elevation 6,700 ft. It is 30°C. How does this affect your takeoff?"
-     **A:** The Density Altitude could be over 9,000 ft. My engine will produce only ~65% power. My takeoff roll might double or triple compared to sea level.
-507. **Q:** "Does humidity increase or decrease density altitude?"
-     **A:** It **increases** density altitude. Water vapor is lighter than dry air, making the overall air mass less dense, reducing performance.
-508. **Q:** "Will your Indicated Airspeed for rotation ($V_r$) be different at a high density altitude airport?"
-     **A:** **No.** I use the same IAS. However, my True Airspeed (and ground speed) will be higher, so the runway used will be longer.
-509. **Q:** "What is the 'Koch Chart'?"
-     **A:** A nomograph used to calculate altitude and temperature effects. It typically shows percentage increase in runway length and decrease in rate of climb.
-510. **Q:** "Why is landing at high density altitude dangerous even if you have plenty of runway?"
-     **A:** Because of the higher True Airspeed. Your ground speed at touchdown is faster, increasing energy ($E=1/2mv^2$).
-
-### Systems (Pitot-Static)
-511. **Q:** "You are climbing at Vy, but your airspeed indicator starts increasing to the red line. What is happening?"
-     **A:** My Pitot tube and drain hole are likely blocked (ice). The trapped high pressure makes the ASI act like an altimeter.
-512. **Q:** "Your static port is blocked and you don't have an alternate static source. What can you do?"
-     **A:** I can break the glass face of the **VSI** (Vertical Speed Indicator). It is the least critical instrument. This vents the system to cabin air.
-513. **Q:** "If you switch to Alternate Static, why does the Altimeter read high?"
-     **A:** The pressure inside the cabin is slightly lower than outside. The altimeter interprets lower pressure as higher altitude.
-514. **Q:** "How do modern glass cockpits (G1000) detect these errors?"
-     **A:** They use an **ADC (Air Data Computer)**. If the pitot/static inputs fail, the ADC will fail, and you will see big Red X's over the airspeed and altitude tapes.
-515. **Q:** "Why is the Pitot Heat switch typically OFF on the ground?"
-     **A:** The heating element is very hot and relies on airflow for cooling. Without airflow, it can burn out or damage the pitot tube cover.
-
-## Checkride Gold Scenarios - Batch 3 (Added Jan 04)
-
-### Human Factors (Hypoxia)
-516. **Q:** "You have the heater on and start feeling drowsy and get a headache. What is it?"
-     **A:** Likely **Hypemic Hypoxia** caused by **Carbon Monoxide** leaking from the heater shroud. Turn off heater, open fresh air vents, use supplemental O2 if available, land ASAP.
-517. **Q:** "Why is it dangerous to fly after donating blood?"
-     **A:** You have reduced your hemoglobin count, causing **Hypemic Hypoxia** even at lower altitudes. It essentially lowers your body's service ceiling.
-518. **Q:** "At what altitude does night vision start to degrade?"
-     **A:** As low as **5,000 ft MSL**. The retina's rods are very oxygen-sensitive. I should use oxygen at night above 5,000 ft if available.
-519. **Q:** "What is 'Time of Useful Consciousness' (TUC) at 30,000 ft?"
-     **A:** Roughly **1-2 minutes**. It is the time you have to act (put on a mask) before you become mentally incapacitated.
-520. **Q:** "A passenger starts breathing rapidly and says their fingers are tingling. What do you do?"
-     **A:** They are hyperventilating. I will speak to them calmly, ask them to talk to me (forces slower breathing), and descend to a lower altitude.
-
-### Human Factors (Spatial Disorientation)
-521. **Q:** "You take off into a dark night over the ocean. You feel like you are tumbling backward. What is this?"
-     **A:** The **Somatogravic Illusion**. The acceleration pushes the otoliths back, mimicking a pitch-up. If I push forward, I will crash. Trust the Attitude Indicator.
-522. **Q:** "What is a 'Black Hole Approach'?"
-     **A:** Landing at night over water or unlit terrain. Without peripheral cues, pilots tend to fly a **lower than normal approach**. Use VASI/PAPI.
-523. **Q:** "Explain the 'Graveyard Spiral' mechanism."
-     **A:** I am in a turn but *feel* level. I see altitude loss and pull back. Since I am banked, pulling back only **tightens the turn** and increases descent. Recovery: Level wings, then pull.
-524. **Q:** "You look at a runway that is narrower than you are used to. How will this affect your approach?"
-     **A:** I will feel like I am **higher** than I actually am. I will be tempted to fly a **lower approach**, risking obstacles.
-525. **Q:** "Why should you avoid moving your head quickly to pick up a pencil during a turn?"
-     **A:** It triggers the **Coriolis Illusion**, confusing all three semicircular canals and causing severe vertigo.
-
-### Aerodynamics (Stalls/Spins)
-526. **Q:** "Can you stall while pointing straight down?"
-     **A:** Yes. If I pull back on the yoke abruptly, I can exceed the Critical Angle of Attack even in a vertical dive (Accelerated Stall).
-527. **Q:** "Why is an Aft CG dangerous for spins?"
-     **A:** It shortens the lever arm to the rudder, reducing control authority for recovery. It also tends to flatten the spin.
-528. **Q:** "What is a 'Cross-Controlled' stall?"
-     **A:** A stall occurring with controls crossed (e.g., Right Rudder, Left Aileron), usually base-to-final. It snaps into a spin over the top.
-529. **Q:** "Explain 'Dihedral'."
-     **A:** The upward angle of the wings. In a slip, the lower wing produces more lift than the upper wing, rolling the plane back to level (Lateral Stability).
-530. **Q:** "What is a 'Secondary Stall'?"
-     **A:** A stall occurring *during* the recovery of a first stall, usually caused by pulling back too aggressively before regaining flying speed.

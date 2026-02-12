@@ -7,16 +7,21 @@ tags: [ppl, systems, index]
 ## PHAK Chapter 3: Structure
 - [[03-Aircraft-Systems/PHAK-Ch03-Overview|PHAK Ch 3 Overview]]
 - [[03-Aircraft-Systems/Notes/Aircraft-Structure-Types|Structure Types (Truss/Monocoque)]]
+- [[03-Aircraft-Systems/Notes/Composite-Materials-ProsCons|Composite Materials]]
 
 ## PHAK Chapter 6: Flight Controls
 - [[03-Aircraft-Systems/PHAK-Ch06-Overview|PHAK Ch 6 Overview]]
+- [[03-Aircraft-Systems/Notes/Primary-Flight-Controls|Primary Flight Controls]]
 - [[03-Aircraft-Systems/Notes/Flaps-Types-Usage|Flaps Types & Usage]]
-- [[02-Aerodynamics/Notes/Empennage-Control-Surfaces|Empennage & Controls]] (From Aero Section)
+- [[03-Aircraft-Systems/Notes/Trim-Tabs-Secondary-Controls|Trim & Secondary Controls]]
+- [[03-Aircraft-Systems/Notes/Empennage-Control-Surfaces|Empennage & Controls]]
 
 ## PHAK Chapter 7: Powerplant & Electrical
 - [[03-Aircraft-Systems/PHAK-Ch07-Overview|PHAK Ch 7 Overview]]
 - [[03-Aircraft-Systems/Notes/Reciprocating-Powerplant-Basics|Reciprocating Powerplant Essentials]]
 - [[03-Aircraft-Systems/Notes/Ignition-Magnetos|Ignition & Magnetos]]
+- [[03-Aircraft-Systems/Notes/Fuel-Induction-Icing|Fuel, Induction & Carb Ice]]
+- [[03-Aircraft-Systems/Notes/Fuel-System-Gravity-Pump|Fuel Systems]]
 - [[03-Aircraft-Systems/Notes/Electrical-System-Basics|Electrical System Fundamentals]]
 
 ## PHAK Chapter 8: Flight Instruments

@@ -1,104 +1,43 @@
 ---
-tags: [ppl, aero, maneuvers, safety, acs-PA.VII.A]
-acs: [PA.VII.A]
-sources: ["PHAK Ch 5", "AC 61-67"]
-status: checkride-ready
+tags: [ppl, aero, concept]
+acs: [P.II.A]
+sources: ["PHAK Ch 5"]
+status: seed
 ---
 
 # Stalls, Spins, & Stability
 
-## 1. Stability Defined
-Stability is the aircraft's ability to correct for disturbances (turbulence, pilot input).
+## What it is
+Stalls occur when the wing exceeds its critical angle of attack; spins happen when one wing stalls more than the other. Stability (longitudinal, lateral, directional) describes how the airplane returns to straight flight or diverges when disturbed.
 
-### Static vs. Dynamic
-1.  **Static Stability:** The **Initial** Tendency.
-    *   *Positive:* Wants to return to original state.
-    *   *Neutral:* Stays in the new state.
-    *   *Negative:* Moves further away (Divergent).
-2.  **Dynamic Stability:** The response **Over Time**.
-    *   *Positive:* Oscillations get smaller (Damped).
-    *   *Neutral:* Oscillations stay the same size.
-    *   *Negative:* Oscillations get worse (Divergent).
+## Why it matters
+You need to explain stall/spin recognition, recovery, and how load factor or configuration changes affect the stall buffet. DPEs grade how confidently you describe those defense-in-depth procedures.
 
-> [!NOTE]
-> An aircraft *must* have Positive Static Stability to have Positive Dynamic Stability.
+## How it shows up on a checkride
+- **Q:** “Describe the stall warning you feel and what you do.” **A:** Buffeting/slow controls → reduce AoA, add full power, stabilize attitude before returning to cruise.
+- **Q:** “Why is spiral instability dangerous?” **A:** The airplane will tighten the turn and dive if left unchecked; recover with opposite rudder and neutral ailerons.
+- **Q:** “What is the first step in a spin recovery?” **A:** PARE (Power idle, Ailerons neutral, Rudder opposite spin, Elevator briskly forward).
 
-### The 3 Axes
-| Stability | Axis | Control | Design Feature |
-| :--- | :--- | :--- | :--- |
-| **Longitudinal** | Lateral (Pitch) | Elevator | CG vs. Center of Lift (Tail downforce) |
-| **Lateral** | Longitudinal (Roll) | Ailerons | Dihedral, Keel Effect |
-| **Directional** | Vertical (Yaw) | Rudder | Weather Vane effect (Tail surface area) |
+## Common mistakes
+- Jumping to full power before reducing AoA; that deepens the stall and may develop a spin.
+- Using ailerons to try to keep inside a spin; this increases the angle of attack on the more stalled wing.
+- Assuming an airplane is inherently stable; even stable airplanes require pitch/power coordination after disturbances.
 
----
-
-## 2. Stalls: The Critical Angle
-**Definition:** A stall occurs when the wing exceeds its **Critical Angle of Attack (AoA)**.
-*   **Key Fact:** A wing can stall at **any airspeed** and **any attitude** (e.g., high speed accelerated stall).
-*   **Design:** Wings are twisted ("washout") so the **root stalls first**. This keeps the ailerons effective (at the tips) longer.
-
----
-
-## 3. Spins: The Aggravated Stall
-**Definition:** An uncoordinated stall. One wing is *more* stalled than the other.
-*   **The Cause:** **Stall + Yaw.**
-*   **The Trap:** If you try to lift the dropping wing with **Aileron**, you increase the AoA on that wing (down aileron = more camber/AoA). It stalls *deeper*, and the drag pulls the nose further into the spin.
-
-### Recovery: PARE
-*Memorize and visualize the 'Why'.*
-
-1.  **P - Power IDLE:** Power tends to flatten the spin (gyroscopic) and airflow from the prop can blanket the tail, making the rudder less effective.
-2.  **A - Ailerons NEUTRAL:** Stops the drag differential from driving the spin.
-3.  **R - Rudder FULL OPPOSITE:** The primary force to stop the rotation.
-4.  **E - Elevator FORWARD:** Breaks the stall. (You cannot fly until the wing is flying).
-
----
-
-## 4. Center of Gravity (CG) Effects
-*   **Forward CG:** More stable. Harder to stall (higher stall speed). Easy spin recovery (longer lever arm to tail).
-*   **Aft CG:** Less stable. Lower stall speed. **Dangerous Spin Recovery** (The rudder has less leverage, and the tail-down force is weak).
-
----
-
-## 5. Visualizing the Spin
-
+## Diagram
 ```mermaid
-flowchart TD
-    Stall[Stall: High AoA] --> Yaw[Yaw: Uncoordinated]
-    Yaw --> SpinEntry[Spin: Autorotation]
-    
-    SpinEntry --> Recovery{Recovery: PARE}
-    
-    Recovery -- Step 1 --> Idle[Power Idle]
-    Recovery -- Step 2 --> Neutral[Ailerons Neutral]
-    Recovery -- Step 3 --> Rudder[Opposite Rudder]
-    Recovery -- Step 4 --> NoseDown[Elevator Forward]
-    
-    NoseDown --> StallBreak[Wing Flies]
-    StallBreak --> Dive[Dive Recovery]
+flowchart LR
+    A[High AoA] --> B[Stall buffet / loss of lift]
+    B --> C[One wing unloads, yawing motion]
+    C --> D[Spin entry if yaw not corrected]
+    D --> E[PARE + neutralize controls = recovery]
+    F[Disruptive input] --> G[Stability response (pitch, roll, yaw)]
+    G --> H[Design restores level attitude]
 ```
 
----
-
-## 6. Oral Exam / Checkride Scenarios
-
-**Q1: "Can you stall while pointing straight down?"**
-> **A:** Yes. If I pull back on the yoke abruptly, I can exceed the Critical Angle of Attack even in a vertical dive. (This is an accelerated stall).
-
-**Q2: "Why is an Aft CG dangerous for spins?"**
-> **A:** It shortens the "arm" between the CG and the rudder, reducing rudder authority. It also tends to flatten the spin, making it potentially unrecoverable.
-
-**Q3: "What is a 'Cross-Controlled' stall?"**
-> **A:** A stall occurring while the controls are crossed (e.g., Right Rudder, Left Aileron). This usually happens base-to-final when a pilot overshoots the centerline and tries to "cheat" the turn with rudder. It snaps into a spin over the top.
-
-**Q4: "Explain 'Dihedral'."**
-> **A:** The upward angle of the wings. If the plane sideslips (banks), the lower wing has a higher effective AoA than the upper wing, creating more lift and rolling the plane back to level. It provides **Lateral Stability**.
-
-**Q5: "What is a 'Secondary Stall'?"**
-> **A:** A stall that happens *during* the recovery from a first stall. Usually caused by pulling back too aggressively before the aircraft has regained sufficient flying speed.
-
----
+## ACS Tags
+- Area of Operation: Maneuvering (P.II)
+- Task(s): P.II.A Explain stalls/spin recognition and recovery techniques.
+- Knowledge elements: Critical AoA, load factor, stability axes, standard recovery flow.
 
 ## References
-*   **PHAK Ch 5:** Aerodynamics.
-*   **AC 61-67:** Stall and Spin Awareness Training.
+- PHAK Ch 5 Load factors, stability, stalls, spins, Vg diagram.

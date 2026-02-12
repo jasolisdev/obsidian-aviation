@@ -1,34 +1,36 @@
 ---
 tags: [ppl, regs, concept]
 acs: [PA.III.B]
-sources: ["FAR 61.51", "FAR 61.87", "FAR 61.31"]
-status: seed
+sources: ["FAR 61.51", "FAR 61.31", "FAR 61.87", "FAR 61.57"]
+status: checkride-ready
+updated: 2026-02-11
 ---
 
-# Logging PIC & Endorsements (PPL Focused)
+# Logging PIC & Endorsements
 
 ## What it is
-FAR 61.51 governs logging pilot-in-command time and required endorsements; FAR 61.87/61.31 describe the solo, cross-country, night, and high-performance endorsements you need as a private pilot.
+`61.51` governs flight time logging. A major checkride topic is the difference between `logging PIC` and `acting as PIC`.
 
-## Why it matters
-A DPE will expect you to discuss how you log PIC time, what qualifies as PIC, and the endorsements that show up on your logbook; failure to understand endorsement limits is a regulatory red flag.
+## Core PIC logging concepts
+- A rated pilot may log PIC when sole manipulator of controls in an aircraft for which rated.
+- A student pilot may log PIC when sole occupant and properly endorsed for the operation.
+- Dual received and PIC can be logged simultaneously in certain legal scenarios.
 
-## How it shows up on a checkride
-- **Q:** “When do you log PIC time?” **A:** When you are the sole manipulator of the flight controls of an aircraft for which you are rated and you are acting as PIC.
-- **Q:** “What endorsements must a student pilot have before solo?” **A:** Instructor endorsement for the specific make/model, area, and duration; the endorsement must be in the logbook per FAR 61.87.
-- **Q:** “What endorsement allows you to fly a high-performance airplane?” **A:** An instructor must endorse you after ground and flight training covering the high-performance characteristics (FAR 61.31).
+## Endorsement tracking
+Track required endorsements with date, aircraft, and scope. Not all endorsements expire; student solo endorsements have specific validity windows.
+
+## Checkride angle
+Expect scenario questions like:
+- "Can this flight be logged as PIC, dual, or both?"
+- "What endorsement was required before this operation?"
 
 ## Common mistakes
-- Logging dual received time as PIC because you were manipulators of the controls while receiving instruction.
-- Letting endorsements expire or not noting the specific limitations (aircraft, maneuvers, conditions).
-- Forgetting that an endorsement for a complex airplane is separate from the high-performance endorsement.
-
-## ACS Tags
-- Area of Operation: Preflight Preparation (PA.III)
-- Task(s): PA.III.B Describe logging requirements and endorsement prerequisites for PIC operations.
-- Knowledge elements: FAR 61.51 logging, FAR 61.87 solo/cross-country/nights, FAR 61.31 high-performance/complex.
+- Equating all logged PIC time with acting-PIC authority.
+- Missing category/class rating condition for sole-manipulator PIC logging.
+- Incomplete endorsement records.
 
 ## References
-- FAR 61.51 Pilot logbook and flight time requirements.
-- FAR 61.87 Solo requirements for student pilots (cross-country, night).
-- FAR 61.31 Type and class rating endorsements (high-performance, complex).
+- 14 CFR 61.51
+- 14 CFR 61.31
+- 14 CFR 61.87
+- 14 CFR 61.57

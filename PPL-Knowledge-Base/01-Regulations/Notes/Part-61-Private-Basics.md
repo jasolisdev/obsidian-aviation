@@ -1,45 +1,34 @@
 ---
 tags: [ppl, regs, concept]
 acs: [PA.I.A, PA.I.B]
-sources: ["PHAK Ch 1", "FAR 61.103"]
-status: seed
+sources: ["FAR 61.103", "FAR 61.113", "FAR 61.56", "FAR 61.57"]
+status: checkride-ready
+updated: 2026-02-11
 ---
 
 # Private Pilot Privileges & Limitations
 
 ## What it is
-The private pilot certificate (single-engine land) authorizes you to act as pilot in command of an aircraft carrying passengers or cargo for non-commercial purposes, given you meet the currency and medical requirements in FAR Part 61.
+For airplane single-engine land, Part 61 defines eligibility, testing, and the privileges/limitations of a private pilot certificate.
 
-## Why it matters
-Knowing your privileges keeps you legal and aligned with the DPE’s expectation that you can explain what you can and cannot do immediately after the checkride.
+## Core rules you must know
+- `61.103`: eligibility requirements (age, English, aeronautical knowledge/experience).
+- `61.113`: private pilot privileges and compensation/hire limitations.
+- `61.56`: flight review requirement (24 calendar months).
+- `61.57`: recent flight experience to carry passengers.
 
-## How it shows up on a checkride
-- **Q:** “What can you do with your private pilot certificate?” **A:** Carry passengers or cargo for most purposes, but not for hire except for certain cost-sharing where you meet FAR 61.113(c).
-- **Q:** “Can you fly at night after the checkride?” **A:** Only if you complete the night currency requirements in FAR 61.57.
-- **Q:** “What’s required to show and carry passengers?” **A:** 3 takeoffs and landings in the same category/class within 90 days; new night class to carry passengers at night.
+## Checkride angle
+- Private pilots may carry passengers and share direct operating expenses on a pro-rata basis when legal.
+- Private pilots may not act as PIC for compensation or hire except listed exceptions in `61.113`.
+- Passenger currency and flight review currency are separate legal requirements.
 
 ## Common mistakes
-- Confusing “for hire” with “for compensation.” The private pilot must not accept money for the flight service itself.
-- Forgetting to log and re-find currency requirements before flying passengers.
-- Ignoring the requirement to give passengers the weight & balance/limitations briefing.
-
-## Diagram
-```mermaid
-flowchart TD
-    A[Meet FAR 61.103 eligibility] --> B[Complete knowledge, flight training]
-    B --> C[Pass ACS-aligned practical test]
-    C --> D[Maintain currency (# of takeoffs/landings)]
-    D --> E[Stay medically current (FAR 61.23)]
-    E --> F[Exercise private pilot privileges legally]
-```
-
-## ACS Tags
-- Area of Operation: Preflight Preparation (PA.I)
-- Task(s): PA.I.A Determine eligibility, PA.I.B Discuss privileges & limitations
-- Knowledge elements: Privileges/limitations, currency/reset procedures, regulatory sources
+- Citing `61.103` as the privileges section (it is eligibility).
+- Treating passenger-currency landings as equivalent to flight review currency.
+- Assuming any money exchange is illegal; the rule depends on the specific exception and conditions.
 
 ## References
-- PHAK Ch 1 Overview of certifications & FAA role
-- FAR 61.103 Private pilot privileges
-- FAR 61.113 Privileges and limitations (cost-sharing)
-- FAR 61.57 Recent flight experience/recency
+- 14 CFR 61.103
+- 14 CFR 61.113
+- 14 CFR 61.56
+- 14 CFR 61.57

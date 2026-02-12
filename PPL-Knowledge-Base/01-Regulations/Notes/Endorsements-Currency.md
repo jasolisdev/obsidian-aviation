@@ -1,44 +1,40 @@
 ---
 tags: [ppl, regs, concept]
 acs: [PA.III.A, PA.III.C]
-sources: ["PHAK Ch 1", "FAR 61.31", "FAR 61.87"]
-status: seed
+sources: ["FAR 61.31", "FAR 61.56", "FAR 61.57", "FAR 61.87", "AC 61-65"]
+status: checkride-ready
+updated: 2026-02-11
 ---
 
 # Endorsements & Currency
 
 ## What it is
-Endorsements are instructor-authorized statements required before you conduct specific operations (solo, night, complex, high-performance). Currency is the self-check against those endorsements, ensured by logbook entries and periodic proficiency.
+- Endorsements: instructor authorizations required for specific training/operations.
+- Currency: legal recent-experience requirements to exercise privileges.
 
-## Why it matters
-A DPE will ask for endorsements before you fly solo or take off after the checkride. Lacking one is a regulatory failure, not a training oversight.
+## Key currency rules
+- `61.56`: flight review every 24 calendar months.
+- `61.57(a)`: 3 takeoffs/landings in preceding 90 days for passenger carriage (same category/class/type if required).
+- `61.57(b)`: night passenger currency requires full-stop landings in the night window.
 
-## How it shows up on a checkride
-- **Q:** “What endorsement do you need before a solo cross-country?” **A:** A logbook endorsement covering the specific course, airplane, and limitations per FAR 61.87.
-- **Q:** “How do you stay current for passengers?” **A:** Within the past 90 days, three takeoffs and landings in the same category/class; night passengers also require night landings (FAR 61.57).
-- **Q:** “What endorsement is required to fly a complex or high-performance airplane?” **A:** Instructor endorsement per FAR 61.31.
+## Key endorsement examples
+- Student solo and solo XC endorsements (`61.87`, `61.93`).
+- High-performance, complex, tailwheel, high-altitude endorsements (`61.31`).
+
+## Checkride angle
+Be ready to separate:
+1. What endorsement you needed to train or operate.
+2. Whether you are currently legal to carry passengers.
+3. Whether you are practically proficient for current conditions.
 
 ## Common mistakes
-- Forgetting to recheck endorsements after a lesson—endorsements expire when the training rating or syllabus changes.
-- Logging a solo or night flight without explicitly noting the endorsement and the date.
-- Believing currency applies to the aircraft model instead of the category/class (e.g., you must be current in another Cessna, not necessarily the exact serial number).
-
-## Diagram
-```mermaid
-flowchart TD
-    A[Instructor endorses maneuver] --> B[Student flies with endorsement]
-    B --> C[Student logs flight & tracks currency]
-    C --> D[Instructor re-endorses after new rating or annual review]
-    D --> E[Student remains legal for solo/night/complex]
-```
-
-## ACS Tags
-- Area of Operation: Preflight Preparation (PA.III)
-- Task(s): PA.III.A Explain required endorsements, PA.III.C Describe currency requirements for passengers.
-- Knowledge elements: FAR 61.31 endorsement rules, FAR 61.57 currency, logbook documentation.
+- Mixing up flight review currency with passenger currency.
+- Assuming you always need an instructor to regain passenger currency.
+- Not tracking endorsement specifics and limitations in the logbook.
 
 ## References
-- PHAK Ch 1 Endorsements, certificates, and AMS.
-- FAR 61.31 Training endorsement requirements.
-- FAR 61.57 Recent flight experience for carrying passengers.
-- FAR 61.87 Solo requirements for student pilots.
+- 14 CFR 61.31
+- 14 CFR 61.56
+- 14 CFR 61.57
+- 14 CFR 61.87
+- AC 61-65 (endorsement guidance)

@@ -4,7 +4,7 @@ tags: [ppl, plan, phak]
 
 # PHAK Roadmap & Chapter Breakdown
 
-This is the guided structure for turning the FAA's *Pilot's Handbook of Aeronautical Knowledge* into your living knowledge base. Use Obsidian's Templates and the Codex prompts (see [[Codex Prompts]]) to build one concept note per idea, include a diagram, ACS tag, and oral questions.
+This is the guided structure for turning the FAA's *Pilot's Handbook of Aeronautical Knowledge* into a living knowledge base. Use Obsidian templates and the Codex prompts (see [[Notes/Codex-Prompt|Codex Prompt]]) to build one concept note per idea, include a diagram, ACS tag, and oral questions.
 
 ## Study Structure
 
@@ -34,7 +34,7 @@ This is the guided structure for turning the FAA's *Pilot's Handbook of Aeronaut
 | 7. Aircraft Systems | Powerplant, prop, induction, electrical, fuel, oxygen, anti-ice | Group by subsystem: engine, fuel, electrical, anti-ice/pressurization | ACS notes for systems-related oral questions; include POH references |
 | 8. Flight Instruments | Pitot-static, gyros, ADC, compass, AoA | Provide failure scenarios and mitigation (diagram pitot-static blockage) | Checklist for instrument scan; misconceptions about instrument indications |
 | 9. Flight Manuals & Docs | POH sections, ADs, inspections, MEL | Restore POH pages to `PDFs/` and map to note segments: limitations, emergency, performance | Include inspective question set for oral exam and cross-reference FAR 91 |
-| 10. Weight & Balance | CG, computation methods, shifting weight | Worked examples with your aircraft (use POH) | Note each computation method + quick-check cheat sheet |
+| 10. Weight & Balance | CG, computation methods, shifting weight | Worked examples with a training aircraft (use POH) | Note each computation method + quick-check cheat sheet |
 | 11. Aircraft Performance | Takeoff/landing, charts, density altitude | Build diagram of runway performance factors; annotate charts | Include DPE-style questions from performance tables |
 | 12. Weather Theory | Atmosphere, fronts, stability, hazards | Diagram convection, front characteristics, icing; link to chapter 13 products | Provide oral Qs on how a warm front affects cloud ceiling |
 | 13. Aviation Weather Services | METAR/TAF/MTR, briefings, charts | Decode an actual METAR/TAF per note; map each product to decision making | Add question-per-product (e.g., “When does an AIRMET become SIGMET?”) |
@@ -46,7 +46,7 @@ This is the guided structure for turning the FAA's *Pilot's Handbook of Aeronaut
 ## Next Actions
 
 1. Start with Chapter 1: run the Codex “PHAK chapter → concept notes” prompt a section at a time; 3–5 notes per chapter.  
-2. Add your POH to `PDFs/` and use the Chapter 9 note flow to connect procedures/limitations to *your* airplane.  
+2. Add a POH/AFM to `PDFs/` and use the Chapter 9 note flow to connect procedures/limitations to a specific training airplane.  
 3. Weekly, run an oral drill (Template `Oral Drill.md`) pulling questions from the new chapter notes and log misses in `Trick Questions`.  
 
 Need stubs for any chapter right now? Name the chapter/section and I’ll scaffold the first few concept notes.  

@@ -26,5 +26,5 @@ Use this as a living plan; add links to the notes you create.
 
 ## Workflow
 
-- Use [[00-Study-Plan/PHRK-Roadmap|PHRK Roadmap]] to pick the next chapter, then follow the “PHAK chapter → concept notes” prompt in [[00-Study-Plan/Codex-Prompts|Codex Prompts]].
+- Use [[00-Study-Plan/PHRK-Roadmap|PHRK Roadmap]] to pick the next chapter, then follow the “PHAK chapter → concept notes” prompt in [[Notes/Codex-Prompt|Codex Prompt]].
 - Add new notes to the relevant [[01-Regulations/Concepts|Regulations]], [[02-Aerodynamics/Concepts|Aerodynamics]], [[03-Aircraft-Systems/Concepts|Aircraft Systems]], etc., indexes and tag them with ACS entries before each oral drill.

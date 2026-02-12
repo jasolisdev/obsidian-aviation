@@ -1,59 +1,38 @@
 ---
-tags: [regs, medical, acs-I.B]
-acs_code: I.B.K.1
+tags: [ppl, regs, medical, concept]
+acs: [PA.I.A]
+sources: ["FAR 61.23", "FAR 61.53", "FAR Part 68"]
+status: checkride-ready
+updated: 2026-02-11
 ---
 
 # Medical Certificates & BasicMed
 
-## Definition
-A document issued by an Aviation Medical Examiner (AME) stating you meet the physical standards to fly.
+## What it is
+You need an appropriate medical pathway to act as PIC: FAA medical certificate or BasicMed (if eligible and within limitations).
 
-## Why It Matters
-Without a valid medical (or BasicMed), your pilot certificate is essentially grounded for acting as PIC (Pilot in Command).
+## Medical duration basics (end of month rule)
 
-## Classes & Durations (Under Age 40 / Age 40+)
-*Note: Durations are calculated to the end of the month of examination.*
+| Age at exam | 1st class ATP privileges | 2nd class commercial privileges | 3rd class private privileges |
+| --- | --- | --- | --- |
+| Under 40 | 12 calendar months | 12 calendar months | 60 calendar months |
+| 40 or older | 6 calendar months | 12 calendar months | 24 calendar months |
 
-| Class | Primary Use | Under 40 | 40 and Over |
-| :--- | :--- | :--- | :--- |
-| **1st** | Airline Transport Pilot (ATP) | 12 months | 6 months |
-| **2nd** | Commercial Pilot | 12 months | 12 months |
-| **3rd** | Private / Student / Rec | 60 months (5 yrs) | 24 months (2 yrs) |
+## BasicMed essentials
+- Must have held a valid FAA medical after July 14, 2006.
+- Complete CMEC exam every 48 months.
+- Complete online course every 24 months.
+- Operational limits include: max 6 seats, max 6,000 lb certificated takeoff weight, max 250 KIAS, below 18,000 MSL, generally within U.S. unless another country accepts BasicMed.
 
-> [!NOTE] Privilege Downgrade
-> If your 1st Class medical "expires" after 12 months, it doesn't become void. It **reverts** to 3rd Class privileges for the remainder of the 5-year (or 2-year) period.
+## Checkride angle
+Be ready to explain certificate validity, downgrade of privileges by operation type, and the self-grounding rule in `61.53`.
 
-## BasicMed
-An alternative to holding a 3rd class medical.
-- **Requirements:** valid US driver's license, held a medical after July 14, 2006, complete CMEC exam (every 48 months), take online course (every 24 months).
-- **Limitations:** Max 6 seats, max 6,000 lbs TOW, max 250 kts, VFR/IFR ok, <18,000 MSL.
-
-## Checkride Angle
-- **Scenario:** "You are 42 years old. You got a 3rd class medical 25 months ago. Can you fly as PIC today?"
-- **Answer:** No. Over 40, the 3rd class is valid for 24 months. It expired at the end of the month last month.
-
-## Common Mistakes
-- Thinking the medical certificate physically changes color or text when it "downgrades." It's the same piece of paper; the *privileges* change.
-- Forgetting the "end of the month" rule.
-
-## Diagram: Duration Logic
-
-```mermaid
-graph TD
-    Start[Medical Exam Date] --> Age{Age at Exam?}
-    Age -- < 40 --> Under40[Valid for 60 Months]
-    Age -- >= 40 --> Over40[Valid for 24 Months]
-    
-    Under40 --> Expire[Expires last day of month]
-    Over40 --> Expire
-```
-
-## Study Drills
-1. If a 35-year-old gets a 1st Class Medical, how long can they exercise ATP privileges? How long for Private privileges?
-2. What happens if you lose your medical certificate?
-3. Can you fly if you have a known medical condition, even if your certificate is technically unexpired? (Hint: FAR 61.53)
+## Common mistakes
+- Forgetting validity runs to the end of the month.
+- Confusing medical certificate class with the operation you are conducting.
+- Ignoring `61.53` self-grounding obligations.
 
 ## References
-- FAR 61.23 (Medical certificates: Requirement and duration)
-- FAR 68 (BasicMed)
-- PHAK Chapter 1
+- 14 CFR 61.23
+- 14 CFR 61.53
+- 14 CFR Part 68

@@ -1,45 +1,37 @@
 ---
 tags: [ppl, regs, concept]
-acs: [PA.II.A, PA.III.A]
-sources: ["PHAK Ch 1", "FAR 91.103", "FAR 91.205"]
-status: seed
+acs: [PA.II.A, PA.II.B]
+sources: ["FAR 91.103", "FAR 91.151", "FAR 91.155", "FAR 91.205", "FAR 91.213"]
+status: checkride-ready
+updated: 2026-02-11
 ---
 
-# FAR Part 91 VFR Rules and Equipment
+# Part 91 VFR Rules and Equipment
 
-## What it is
-Part 91 gates the operational picture for every non-commercial VFR flight. It defines minimum VFR weather and fuel requirements, right-of-way rules, and the equipment you must have installed and working.
+## Core sections to master
+- `91.103` preflight action.
+- `91.151` VFR fuel reserve requirements.
+- `91.155` VFR weather minima.
+- `91.205` required instruments/equipment.
+- `91.213` inoperative equipment process.
 
 ## Why it matters
-A DPE expects you to state the legal weather minimums and mandatory equipment before flight. That keeps every plan and briefing tied to safety-critical limits.
+These are the most frequently tested legal foundations in PPL oral exams and practical preflight scenario questions.
 
-## How it shows up on a checkride
-- **Q:** “What are the day VFR minimums for Class G below 1,200 AGL?” **A:** 1 statute mile visibility, clear of clouds (FAR 91.155).
-- **Q:** “What instruments/equipment are required for VFR day?” **A:** ATOMATOFLAMES (Altimeter, Tachometer, Oil temp, Manifold pressure, Airspeed, Temperature gauge, Oil pressure, Fuel gauge, Landing gear light, Anticolission, Magnetic compass, Emergency equipment, Seat belts).
-- **Q:** “What is the fuel requirement before takeoff?” **A:** 30 minutes of fuel reserve for day VFR (FAR 91.151).
+## Fast preflight legal checklist
+1. Weather minima legal for route/airspace/time.
+2. Fuel legal plus personal reserve margin.
+3. Required equipment operative (or valid INOP process complete).
+4. ARROW and pilot documents in order.
 
 ## Common mistakes
-- Reading Class G minimums as if they apply to Class E—always check the sectional or chart supplement to verify.
-- Trusting a single instrument gauge without cross-checking duplicates (a fuel gauge failure is a fatal trap).
-- Assuming equipment list applies to your aircraft; verify the POH/FAR 91.205 for mandated items.
-
-## Diagram
-```mermaid
-flowchart LR
-    A[Plan flight with METAR/TAF] --> B[Identify airspace & weather minimums]
-    B --> C[Match required equipment to ATOMATOFLAMES + MEL]
-    C --> D[Confirm fuel (30 min reserve day / 45 min night)]
-    D --> E[Sign logbook & passenger brief]
-```
-
-## ACS Tags
-- Area of Operation: Preflight Preparation (PA.II)
-- Task(s): PA.II.A Determine compliance with airworthiness & regulatory requirements.
-- Knowledge elements: FAR 91.155/91.205/91.151 minimums, ATOMATOFLAMES checklist, airspace rules.
+- Quoting mnemonics without regulation context.
+- Missing night-specific items and requirements.
+- Assuming all installed equipment is required for dispatch.
 
 ## References
-- PHAK Ch 1 Regulations overview and waypoints.
-- FAR 91.103 Preflight action.
-- FAR 91.151 Fuel requirements.
-- FAR 91.155 Basic VFR weather minimums.
-- FAR 91.205 Required equipment for VFR flight.
+- 14 CFR 91.103
+- 14 CFR 91.151
+- 14 CFR 91.155
+- 14 CFR 91.205
+- 14 CFR 91.213
